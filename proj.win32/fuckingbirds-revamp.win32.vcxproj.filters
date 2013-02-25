@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{26acbd27-3dde-4a2e-abe5-86b37683ddc4}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{b3d701ad-43f4-4701-bd05-c19b55b4a17e}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{b9fdc287-948e-4532-a572-e6ec9d0938be}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+    <Filter Include="source\artemis">
+      <UniqueIdentifier>{fcda517c-375d-43b4-bc22-789eca44cea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\systems">
+      <UniqueIdentifier>{0ae7491b-a940-468e-b8a8-afe93416c288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\components">
+      <UniqueIdentifier>{ceef46aa-0c79-4068-ad69-441fa3b701ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\components">
+      <UniqueIdentifier>{1efc1c98-85ad-4806-93ab-cafaa3f40794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\systems">
+      <UniqueIdentifier>{ab9777c7-5db3-483e-b08c-f7bc0529f2de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\artemis">
+      <UniqueIdentifier>{82bc6ffe-3cbc-4962-a036-5fea9bbe7662}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\fuckingbirds-revamp.ico">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseSelected.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseNormal.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\fps_images.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\fps_images-hd.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\fps_images-ipadhd.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\cloud2.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\cloud3.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\continuegame.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\fallingBird.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\finder.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\fireflies2.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\font1.ttf">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\foreground.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\foreground1.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\foreground2.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gameSceneBackgroundMusic.mp3">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gameSceneBackgroundMusic.wav">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gun.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\gun2.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\highscore.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\howtoplay.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\howtoplayBackground.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\icon_game.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\killerBeeAttackImage.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\killerBeeAttackText.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\lion.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\lionRoar.mp3">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\lionRoarBackground.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\lionRoarBackground.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\lionRoarBackground-1.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\lionRoarButton.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\lionRoarChibi.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\lionRoarImage.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\lionRoarText.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\menu_quit.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\menu_reset.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\menu_resume.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\mvboli.ttf">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\newgame.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\projectileBackground.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\shit.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\sight.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\SkillShade.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\SkillShade.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\SkillShade-1.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\smallStar.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\snake.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\snakeBody.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\soap.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\soap-die.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\stone.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\watermelon.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\watermelonSlice.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\back.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\background.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\backgroundGameScene.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\backgroundMusic.mp3">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\backgroundMusic.wav">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\bee.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\beehive.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\beeStingButton.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\bird.plist">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\bird.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\bird-1.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\birdSound.wav">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\board.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\bomb.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\bushLeft.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\bushRight.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\cloud1.png">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="fuckingbirds-revamp.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\EntityManager.h">
+      <Filter>include\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\EntityProcessingSystem.h">
+      <Filter>include\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\EntitySystem.h">
+      <Filter>include\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\GroupManager.h">
+      <Filter>include\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\ImmutableBag.h">
+      <Filter>include\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\SystemBitManager.h">
+      <Filter>include\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\SystemManager.h">
+      <Filter>include\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\TagManager.h">
+      <Filter>include\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\TypeInfoComparator.h">
+      <Filter>include\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\World.h">
+      <Filter>include\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\BitSize.h">
+      <Filter>include\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\Component.h">
+      <Filter>include\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\ComponentMapper.h">
+      <Filter>include\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\ComponentType.h">
+      <Filter>include\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\ComponentTypeManager.h">
+      <Filter>include\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\DelayedEntityProcessingSystem.h">
+      <Filter>include\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\DelayedEntitySystem.h">
+      <Filter>include\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\Entity.h">
+      <Filter>include\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GraphicComponent.h">
+      <Filter>include\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MovementSystem.h">
+      <Filter>include\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\VelocityComponent.h">
+      <Filter>include\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\OnScreenBoundaryComponent.h">
+      <Filter>include\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\OnScreenBoundarySystem.h">
+      <Filter>include\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainMenuLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HowToPlayScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ReleaseShitSystem.h">
+      <Filter>include\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamePlayScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PhysicalComponent.h">
+      <Filter>include\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PhysicalSystem.h">
+      <Filter>include\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ReleaseShitComponent.h">
+      <Filter>include\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CollisionSystem.h">
+      <Filter>include\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EntityFactory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Database.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HighScoreLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DamageComponent.h">
+      <Filter>include\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DefaultPositionComponent.h">
+      <Filter>include\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HeathComponent.h">
+      <Filter>include\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ScoreComponent.h">
+      <Filter>include\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Delegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Signal.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EndGameScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LionRoarSkillSystem.h">
+      <Filter>include\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LionRoarSkillComponent.h">
+      <Filter>include\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\InsideMenu.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Constants.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayerControllerSystem.h">
+      <Filter>include\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LionFollowedComponent.h">
+      <Filter>include\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SnakeFollowedComponent.h">
+      <Filter>include\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\FinderFollowedComponent.h">
+      <Filter>include\components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\artemis\Component.cpp">
+      <Filter>source\artemis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\artemis\World.cpp">
+      <Filter>source\artemis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\artemis\ComponentType.cpp">
+      <Filter>source\artemis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\artemis\ComponentTypeManager.cpp">
+      <Filter>source\artemis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\artemis\DelayedEntityProcessingSystem.cpp">
+      <Filter>source\artemis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\artemis\DelayedEntitySystem.cpp">
+      <Filter>source\artemis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\artemis\Entity.cpp">
+      <Filter>source\artemis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\artemis\EntityManager.cpp">
+      <Filter>source\artemis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\artemis\EntityProcessingSystem.cpp">
+      <Filter>source\artemis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\artemis\EntitySystem.cpp">
+      <Filter>source\artemis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\artemis\GroupManager.cpp">
+      <Filter>source\artemis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\artemis\SystemBitManager.cpp">
+      <Filter>source\artemis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\artemis\SystemManager.cpp">
+      <Filter>source\artemis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\artemis\TagManager.cpp">
+      <Filter>source\artemis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GraphicComponent.cpp">
+      <Filter>source\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MovementSystem.cpp">
+      <Filter>source\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\VelocityComponent.cpp">
+      <Filter>source\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\OnScreenBoundarySystem.cpp">
+      <Filter>source\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainMenuLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HowToPlayScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ReleaseShitSystem.cpp">
+      <Filter>source\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamePlayScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PhysicalComponent.cpp">
+      <Filter>source\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PhysicalSystem.cpp">
+      <Filter>source\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CollisionSystem.cpp">
+      <Filter>source\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EntityFactory.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HighScoreLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Database.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DamageComponent.cpp">
+      <Filter>source\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HeathComponent.cpp">
+      <Filter>source\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ScoreComponent.cpp">
+      <Filter>source\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EndGameScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LionRoarSkillSystem.cpp">
+      <Filter>source\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\InsideMenu.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayerControllerSystem.cpp">
+      <Filter>source\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LionFollowedComponent.cpp">
+      <Filter>source\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SnakeFollowedComponent.cpp">
+      <Filter>source\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\FinderFollowedComponent.cpp">
+      <Filter>source\components</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

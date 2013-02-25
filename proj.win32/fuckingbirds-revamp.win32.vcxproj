@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{51F5F809-1549-4531-843B-981AE50DD97E}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;..\Classes;..\..\cocos2dx;..\..\cocos2dx\include;..\..\cocos2dx\kazmath\include;..\..\cocos2dx\platform\win32;..\..\cocos2dx\platform\third_party\win32;..\..\cocos2dx\platform\third_party\win32\OGLES;..\..\;..\..\CocosDenshion\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS_DEBUG;COCOS2D_DEBUG=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcocos2d.lib;opengl32.lib;glew32.lib;libBox2d.lib;libCocosDenshion.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>fuckingbirds-revamp.h</HeaderFileName>
+      <InterfaceIdentifierFileName>fuckingbirds-revamp_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>fuckingbirds-revamp_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)/fuckingbirds-revamp.tlb</TypeLibraryName>
+      <DllDataFileName>
+      </DllDataFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;..\Classes;..\..\cocos2dx;..\..\cocos2dx\include;..\..\cocos2dx\kazmath\include;..\..\cocos2dx\platform\win32;..\..\cocos2dx\platform\third_party\win32;..\..\cocos2dx\platform\third_party\win32\OGLES;..\..\;..\..\CocosDenshion\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;STRICT;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGSNDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcocos2d.lib;opengl32.lib;glew32.lib;libBox2d.lib;libCocosDenshion.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <HeaderFileName>fuckingbirds-revamp.h</HeaderFileName>
+      <InterfaceIdentifierFileName>fuckingbirds-revamp_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>fuckingbirds-revamp_p.c</ProxyFileName>
+      <GenerateStublessProxies>true</GenerateStublessProxies>
+      <TypeLibraryName>$(IntDir)/fuckingbirds-revamp.tlb</TypeLibraryName>
+      <DllDataFileName>
+      </DllDataFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\Resources\back.png" />
+    <None Include="..\Resources\background.png" />
+    <None Include="..\Resources\backgroundGameScene.png" />
+    <None Include="..\Resources\backgroundMusic.mp3" />
+    <None Include="..\Resources\backgroundMusic.wav" />
+    <None Include="..\Resources\bee.png" />
+    <None Include="..\Resources\beehive.png" />
+    <None Include="..\Resources\beeStingButton.png" />
+    <None Include="..\Resources\bird-1.png" />
+    <None Include="..\Resources\bird.plist" />
+    <None Include="..\Resources\bird.png" />
+    <None Include="..\Resources\birdSound.wav" />
+    <None Include="..\Resources\board.png" />
+    <None Include="..\Resources\bomb.png" />
+    <None Include="..\Resources\bushLeft.png" />
+    <None Include="..\Resources\bushRight.png" />
+    <None Include="..\Resources\CloseNormal.png" />
+    <None Include="..\Resources\CloseSelected.png" />
+    <None Include="..\Resources\cloud1.png" />
+    <None Include="..\Resources\cloud2.png" />
+    <None Include="..\Resources\cloud3.png" />
+    <None Include="..\Resources\continuegame.png" />
+    <None Include="..\Resources\fallingBird.png" />
+    <None Include="..\Resources\finder.png" />
+    <None Include="..\Resources\fireflies2.png" />
+    <None Include="..\Resources\font1.ttf" />
+    <None Include="..\Resources\foreground.png" />
+    <None Include="..\Resources\foreground1.png" />
+    <None Include="..\Resources\foreground2.png" />
+    <None Include="..\Resources\fps_images-hd.png" />
+    <None Include="..\Resources\fps_images-ipadhd.png" />
+    <None Include="..\Resources\fps_images.png" />
+    <None Include="..\Resources\gameSceneBackgroundMusic.mp3" />
+    <None Include="..\Resources\gameSceneBackgroundMusic.wav" />
+    <None Include="..\Resources\gun.png" />
+    <None Include="..\Resources\gun2.png" />
+    <None Include="..\Resources\HelloWorld.png" />
+    <None Include="..\Resources\highscore.png" />
+    <None Include="..\Resources\howtoplay.png" />
+    <None Include="..\Resources\howtoplayBackground.png" />
+    <None Include="..\Resources\icon_game.png" />
+    <None Include="..\Resources\killerBeeAttackImage.png" />
+    <None Include="..\Resources\killerBeeAttackText.png" />
+    <None Include="..\Resources\lion.png" />
+    <None Include="..\Resources\lionRoar.mp3" />
+    <None Include="..\Resources\lionRoarBackground-1.png" />
+    <None Include="..\Resources\lionRoarBackground.plist" />
+    <None Include="..\Resources\lionRoarBackground.png" />
+    <None Include="..\Resources\lionRoarButton.png" />
+    <None Include="..\Resources\lionRoarChibi.png" />
+    <None Include="..\Resources\lionRoarImage.png" />
+    <None Include="..\Resources\lionRoarText.png" />
+    <None Include="..\Resources\menu_quit.png" />
+    <None Include="..\Resources\menu_reset.png" />
+    <None Include="..\Resources\menu_resume.png" />
+    <None Include="..\Resources\mvboli.ttf" />
+    <None Include="..\Resources\newgame.png" />
+    <None Include="..\Resources\projectileBackground.png" />
+    <None Include="..\Resources\shit.png" />
+    <None Include="..\Resources\sight.png" />
+    <None Include="..\Resources\SkillShade-1.png" />
+    <None Include="..\Resources\SkillShade.plist" />
+    <None Include="..\Resources\SkillShade.png" />
+    <None Include="..\Resources\smallStar.png" />
+    <None Include="..\Resources\snake.png" />
+    <None Include="..\Resources\snakeBody.png" />
+    <None Include="..\Resources\soap-die.png" />
+    <None Include="..\Resources\soap.png" />
+    <None Include="..\Resources\stone.png" />
+    <None Include="..\Resources\watermelon.png" />
+    <None Include="..\Resources\watermelonSlice.png" />
+    <None Include="res\fuckingbirds-revamp.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="fuckingbirds-revamp.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\artemis\BitSize.h" />
+    <ClInclude Include="..\Classes\artemis\Component.h" />
+    <ClInclude Include="..\Classes\artemis\ComponentMapper.h" />
+    <ClInclude Include="..\Classes\artemis\ComponentType.h" />
+    <ClInclude Include="..\Classes\artemis\ComponentTypeManager.h" />
+    <ClInclude Include="..\Classes\artemis\DelayedEntityProcessingSystem.h" />
+    <ClInclude Include="..\Classes\artemis\DelayedEntitySystem.h" />
+    <ClInclude Include="..\Classes\artemis\Entity.h" />
+    <ClInclude Include="..\Classes\artemis\EntityManager.h" />
+    <ClInclude Include="..\Classes\artemis\EntityProcessingSystem.h" />
+    <ClInclude Include="..\Classes\artemis\EntitySystem.h" />
+    <ClInclude Include="..\Classes\artemis\GroupManager.h" />
+    <ClInclude Include="..\Classes\artemis\ImmutableBag.h" />
+    <ClInclude Include="..\Classes\artemis\SystemBitManager.h" />
+    <ClInclude Include="..\Classes\artemis\SystemManager.h" />
+    <ClInclude Include="..\Classes\artemis\TagManager.h" />
+    <ClInclude Include="..\Classes\artemis\TypeInfoComparator.h" />
+    <ClInclude Include="..\Classes\artemis\World.h" />
+    <ClInclude Include="..\Classes\CollisionSystem.h" />
+    <ClInclude Include="..\Classes\Constants.h" />
+    <ClInclude Include="..\Classes\DamageComponent.h" />
+    <ClInclude Include="..\Classes\Database.h" />
+    <ClInclude Include="..\Classes\DefaultPositionComponent.h" />
+    <ClInclude Include="..\Classes\Delegate.h" />
+    <ClInclude Include="..\Classes\EndGameScene.h" />
+    <ClInclude Include="..\Classes\EntityFactory.h" />
+    <ClInclude Include="..\Classes\FinderFollowedComponent.h" />
+    <ClInclude Include="..\Classes\GamePlayScene.h" />
+    <ClInclude Include="..\Classes\GraphicComponent.h" />
+    <ClInclude Include="..\Classes\HeathComponent.h" />
+    <ClInclude Include="..\Classes\HighScoreLayer.h" />
+    <ClInclude Include="..\Classes\HowToPlayScene.h" />
+    <ClInclude Include="..\Classes\InsideMenu.h" />
+    <ClInclude Include="..\Classes\LionFollowedComponent.h" />
+    <ClInclude Include="..\Classes\LionRoarSkillComponent.h" />
+    <ClInclude Include="..\Classes\LionRoarSkillSystem.h" />
+    <ClInclude Include="..\Classes\MainMenuLayer.h" />
+    <ClInclude Include="..\Classes\MovementSystem.h" />
+    <ClInclude Include="..\Classes\OnScreenBoundaryComponent.h" />
+    <ClInclude Include="..\Classes\OnScreenBoundarySystem.h" />
+    <ClInclude Include="..\Classes\PhysicalComponent.h" />
+    <ClInclude Include="..\Classes\PhysicalSystem.h" />
+    <ClInclude Include="..\Classes\ReleaseShitComponent.h" />
+    <ClInclude Include="..\Classes\ReleaseShitSystem.h" />
+    <ClInclude Include="..\Classes\ScoreComponent.h" />
+    <ClInclude Include="..\Classes\Signal.h" />
+    <ClInclude Include="..\Classes\PlayerControllerSystem.h" />
+    <ClInclude Include="..\Classes\SnakeFollowedComponent.h" />
+    <ClInclude Include="..\Classes\VelocityComponent.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\artemis\Component.cpp" />
+    <ClCompile Include="..\Classes\artemis\ComponentType.cpp" />
+    <ClCompile Include="..\Classes\artemis\ComponentTypeManager.cpp" />
+    <ClCompile Include="..\Classes\artemis\DelayedEntityProcessingSystem.cpp" />
+    <ClCompile Include="..\Classes\artemis\DelayedEntitySystem.cpp" />
+    <ClCompile Include="..\Classes\artemis\Entity.cpp" />
+    <ClCompile Include="..\Classes\artemis\EntityManager.cpp" />
+    <ClCompile Include="..\Classes\artemis\EntityProcessingSystem.cpp" />
+    <ClCompile Include="..\Classes\artemis\EntitySystem.cpp" />
+    <ClCompile Include="..\Classes\artemis\GroupManager.cpp" />
+    <ClCompile Include="..\Classes\artemis\SystemBitManager.cpp" />
+    <ClCompile Include="..\Classes\artemis\SystemManager.cpp" />
+    <ClCompile Include="..\Classes\artemis\TagManager.cpp" />
+    <ClCompile Include="..\Classes\artemis\World.cpp" />
+    <ClCompile Include="..\Classes\CollisionSystem.cpp" />
+    <ClCompile Include="..\Classes\DamageComponent.cpp" />
+    <ClCompile Include="..\Classes\Database.cpp" />
+    <ClCompile Include="..\Classes\EndGameScene.cpp" />
+    <ClCompile Include="..\Classes\EntityFactory.cpp" />
+    <ClCompile Include="..\Classes\FinderFollowedComponent.cpp" />
+    <ClCompile Include="..\Classes\GamePlayScene.cpp" />
+    <ClCompile Include="..\Classes\GraphicComponent.cpp" />
+    <ClCompile Include="..\Classes\HeathComponent.cpp" />
+    <ClCompile Include="..\Classes\HighScoreLayer.cpp" />
+    <ClCompile Include="..\Classes\HowToPlayScene.cpp" />
+    <ClCompile Include="..\Classes\InsideMenu.cpp" />
+    <ClCompile Include="..\Classes\LionFollowedComponent.cpp" />
+    <ClCompile Include="..\Classes\LionRoarSkillSystem.cpp" />
+    <ClCompile Include="..\Classes\MainMenuLayer.cpp" />
+    <ClCompile Include="..\Classes\MovementSystem.cpp" />
+    <ClCompile Include="..\Classes\OnScreenBoundarySystem.cpp" />
+    <ClCompile Include="..\Classes\PhysicalComponent.cpp" />
+    <ClCompile Include="..\Classes\PhysicalSystem.cpp" />
+    <ClCompile Include="..\Classes\ReleaseShitSystem.cpp" />
+    <ClCompile Include="..\Classes\ScoreComponent.cpp" />
+    <ClCompile Include="..\Classes\PlayerControllerSystem.cpp" />
+    <ClCompile Include="..\Classes\SnakeFollowedComponent.cpp" />
+    <ClCompile Include="..\Classes\VelocityComponent.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
