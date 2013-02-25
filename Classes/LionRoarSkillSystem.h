@@ -39,6 +39,9 @@ private:
 
   CCSize winSize;
   GamePlayLayer* mLayer;
+  
+  // Animation
+  CCAnimationCache* mAnimCache;
 };
 
 #endif

@@ -15,7 +15,8 @@
  *  Animation
  */
 
-#define ANIM_BIRD "birds"
+#define ANIM_BIRD                 "birds"
+#define ANIM_LIONROAR             "lionroar"
 
 /*
  *  Entity Constants

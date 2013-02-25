@@ -42,6 +42,16 @@ void EntityFactory::initAnimations()
   }
   birdAnim->setDelayPerUnit(0.06f);
   mAnimCache->addAnimation(birdAnim, ANIM_BIRD);
+  
+  CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("lionRoarBackground.plist");
+  // Lion Roar
+  CCAnimation* lionRoarAnim = CCAnimation::create();
+  for(int i = 1; i <= 3; ++i) {
+    sprintf (fileName, "lionRoarBackground-%d.png", i);
+    lionRoarAnim->addSpriteFrame(CCSpriteFrameCache::sharedSpriteFrameCache()->spriteFrameByName(fileName));
+  }
+  lionRoarAnim->setDelayPerUnit(0.06f);
+  mAnimCache->addAnimation(birdAnim, ANIM_LIONROAR);
 }
 
 /**

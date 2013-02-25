@@ -2,6 +2,7 @@
 #include "GraphicComponent.h"
 #include "ScoreComponent.h"
 #include "GamePlayScene.h"
+#include "Constants.h"
 
 LionRoarSkillSystem::LionRoarSkillSystem(GamePlayLayer* pLayer, CCSize pWInSize, EntityFactory* pEntityFactory)
 {
@@ -9,6 +10,8 @@ LionRoarSkillSystem::LionRoarSkillSystem(GamePlayLayer* pLayer, CCSize pWInSize,
   mEntityFactory = pEntityFactory;
   mLayer = pLayer;
   winSize = pWInSize;
+  
+  mAnimCache = CCAnimationCache::sharedAnimationCache();
 }
 
 void LionRoarSkillSystem::initialize()
@@ -55,13 +58,7 @@ void LionRoarSkillSystem::actionForEntities()
   CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("lionRoar.mp3",false);
 
   //action for background
-  CCSpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("lionRoarBackground.plist");
-  CCArray* frames = new CCArray();
-  for (int i=1; i<=3; i++)
-  {
-    frames->addObject(CCSpriteFrameCache::sharedSpriteFrameCache()->spriteFrameByName(CCString::createWithFormat("lionRoarBackground-%d.png",i)->getCString()));
-  }
-  CCAnimation *animation = CCAnimation::create(frames,0.25, 1);
+  CCAnimation* animation = mAnimCache->animationByName(ANIM_LIONROAR);
   CCAnimate* animate = CCAnimate::create(animation);
   CCFiniteTimeAction *repeat = CCRepeatForever::create(animate);
   backgroundSkill->runAction(repeat);
