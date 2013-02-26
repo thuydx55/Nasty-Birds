@@ -11,11 +11,11 @@
 
 #include "EntityFactory.h"
 
-#include "GraphicComponent.h"
-#include "DefaultPositionComponent.h"
-#include "LionFollowedComponent.h"
-#include "SnakeFollowedComponent.h"
-#include "FinderFollowedComponent.h"
+#include "components/GraphicComponent.h"
+#include "components/DefaultPositionComponent.h"
+#include "components/LionFollowedComponent.h"
+#include "components/SnakeFollowedComponent.h"
+#include "components/FinderFollowedComponent.h"
 
 using namespace cocos2d;
 using namespace artemis;

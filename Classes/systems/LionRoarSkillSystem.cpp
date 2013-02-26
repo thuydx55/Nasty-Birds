@@ -1,6 +1,8 @@
 #include "LionRoarSkillSystem.h"
-#include "GraphicComponent.h"
-#include "ScoreComponent.h"
+
+#include "components/GraphicComponent.h"
+#include "components/ScoreComponent.h"
+
 #include "GamePlayScene.h"
 #include "Constants.h"
 

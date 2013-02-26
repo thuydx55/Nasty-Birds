@@ -6,7 +6,9 @@
 #include "artemis/World.h"
 #include "artemis/Entity.h"
 #include "artemis/ComponentMapper.h"
-#include "LionRoarSkillComponent.h"
+
+#include "components/LionRoarSkillComponent.h"
+
 #include "EntityFactory.h"
 
 class GamePlayLayer;

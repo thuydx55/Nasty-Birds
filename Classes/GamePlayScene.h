@@ -6,17 +6,17 @@
 #include "artemis/Entity.h"
 #include "artemis/World.h"
 
-#include "MovementSystem.h"
-#include "OnScreenBoundarySystem.h"
-#include "ReleaseShitSystem.h"
-#include "EntityFactory.h"
-#include "PhysicalSystem.h"
-#include "CollisionSystem.h"
-#include "PlayerControllerSystem.h"
-#include "LionRoarSkillSystem.h"
+#include "systems/MovementSystem.h"
+#include "systems/OnScreenBoundarySystem.h"
+#include "systems/ReleaseShitSystem.h"
+#include "systems/PhysicalSystem.h"
+#include "systems/CollisionSystem.h"
+#include "systems/PlayerControllerSystem.h"
+#include "systems/LionRoarSkillSystem.h"
 
 #include "EndGameScene.h"
 #include "InsideMenu.h"
+#include "EntityFactory.h"
 
 using namespace cocos2d;
 

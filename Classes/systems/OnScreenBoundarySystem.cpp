@@ -1,5 +1,7 @@
 #include "OnScreenBoundarySystem.h"
-#include "OnScreenBoundaryComponent.h"
+
+#include "components/OnScreenBoundaryComponent.h"
+
 #include "GamePlayScene.h"
 /**
  * System constructor define the list of components it interests in

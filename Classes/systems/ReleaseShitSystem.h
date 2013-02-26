@@ -7,8 +7,9 @@
 #include "artemis/Entity.h"
 #include "artemis/World.h"
 
-#include "GraphicComponent.h"
-#include "ReleaseShitComponent.h"
+#include "components/GraphicComponent.h"
+#include "components/ReleaseShitComponent.h"
+
 #include "EntityFactory.h"
 
 using namespace cocos2d;

@@ -1,6 +1,8 @@
 #include "ReleaseShitSystem.h"
+
+#include "components/OnScreenBoundaryComponent.h"
+
 #include "GamePlayScene.h"
-#include "OnScreenBoundaryComponent.h"
 /**
  * System constructor define the list of components it interests in
  */

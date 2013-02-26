@@ -8,8 +8,8 @@
 #include "artemis/Entity.h"
 #include "artemis/World.h"
 
-#include "GraphicComponent.h"
-#include "VelocityComponent.h"
+#include "components/GraphicComponent.h"
+#include "components/VelocityComponent.h"
 
 using namespace cocos2d;
 using namespace artemis;

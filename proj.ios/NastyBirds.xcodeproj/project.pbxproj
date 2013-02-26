@@ -7,6 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E12C902716DC88D00030A238 /* Component.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C900816DC88CF0030A238 /* Component.cpp */; };
+		E12C902816DC88D00030A238 /* ComponentType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C900B16DC88CF0030A238 /* ComponentType.cpp */; };
+		E12C902916DC88D00030A238 /* ComponentTypeManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C900D16DC88CF0030A238 /* ComponentTypeManager.cpp */; };
+		E12C902A16DC88D00030A238 /* DelayedEntityProcessingSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C900F16DC88CF0030A238 /* DelayedEntityProcessingSystem.cpp */; };
+		E12C902B16DC88D00030A238 /* DelayedEntitySystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C901116DC88CF0030A238 /* DelayedEntitySystem.cpp */; };
+		E12C902C16DC88D00030A238 /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C901316DC88CF0030A238 /* Entity.cpp */; };
+		E12C902D16DC88D00030A238 /* EntityManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C901516DC88CF0030A238 /* EntityManager.cpp */; };
+		E12C902E16DC88D00030A238 /* EntityProcessingSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C901716DC88CF0030A238 /* EntityProcessingSystem.cpp */; };
+		E12C902F16DC88D00030A238 /* EntitySystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C901916DC88CF0030A238 /* EntitySystem.cpp */; };
+		E12C903016DC88D00030A238 /* GroupManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C901B16DC88CF0030A238 /* GroupManager.cpp */; };
+		E12C903116DC88D00030A238 /* SystemBitManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C901E16DC88D00030A238 /* SystemBitManager.cpp */; };
+		E12C903216DC88D00030A238 /* SystemManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C902016DC88D00030A238 /* SystemManager.cpp */; };
+		E12C903316DC88D00030A238 /* TagManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C902216DC88D00030A238 /* TagManager.cpp */; };
+		E12C903416DC88D00030A238 /* World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C902516DC88D00030A238 /* World.cpp */; };
+		E12C904C16DC8A4E0030A238 /* DamageComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C903616DC8A4E0030A238 /* DamageComponent.cpp */; };
+		E12C904D16DC8A4E0030A238 /* FinderFollowedComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C903916DC8A4E0030A238 /* FinderFollowedComponent.cpp */; };
+		E12C904E16DC8A4E0030A238 /* GraphicComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C903B16DC8A4E0030A238 /* GraphicComponent.cpp */; };
+		E12C904F16DC8A4E0030A238 /* HeathComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C903D16DC8A4E0030A238 /* HeathComponent.cpp */; };
+		E12C905016DC8A4E0030A238 /* LionFollowedComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C903F16DC8A4E0030A238 /* LionFollowedComponent.cpp */; };
+		E12C905116DC8A4E0030A238 /* PhysicalComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C904316DC8A4E0030A238 /* PhysicalComponent.cpp */; };
+		E12C905216DC8A4E0030A238 /* ScoreComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C904616DC8A4E0030A238 /* ScoreComponent.cpp */; };
+		E12C905316DC8A4E0030A238 /* SnakeFollowedComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C904816DC8A4E0030A238 /* SnakeFollowedComponent.cpp */; };
+		E12C905416DC8A4E0030A238 /* VelocityComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C904A16DC8A4E0030A238 /* VelocityComponent.cpp */; };
+		E12C906316DC8A6B0030A238 /* CollisionSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C905516DC8A6B0030A238 /* CollisionSystem.cpp */; };
+		E12C906416DC8A6B0030A238 /* LionRoarSkillSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C905716DC8A6B0030A238 /* LionRoarSkillSystem.cpp */; };
+		E12C906516DC8A6B0030A238 /* MovementSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C905916DC8A6B0030A238 /* MovementSystem.cpp */; };
+		E12C906616DC8A6B0030A238 /* OnScreenBoundarySystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C905B16DC8A6B0030A238 /* OnScreenBoundarySystem.cpp */; };
+		E12C906716DC8A6B0030A238 /* PhysicalSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C905D16DC8A6B0030A238 /* PhysicalSystem.cpp */; };
+		E12C906816DC8A6B0030A238 /* PlayerControllerSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C905F16DC8A6B0030A238 /* PlayerControllerSystem.cpp */; };
+		E12C906916DC8A6B0030A238 /* ReleaseShitSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C906116DC8A6B0030A238 /* ReleaseShitSystem.cpp */; };
 		E16278F216DB5AE700F6D930 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = E16278AF16DB5AE700F6D930 /* background.png */; };
 		E16278F316DB5AE700F6D930 /* backgroundGameScene.png in Resources */ = {isa = PBXBuildFile; fileRef = E16278B016DB5AE700F6D930 /* backgroundGameScene.png */; };
 		E16278F416DB5AE700F6D930 /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E16278B116DB5AE700F6D930 /* backgroundMusic.mp3 */; };
@@ -74,45 +104,14 @@
 		E162793216DB5AE700F6D930 /* stone.png in Resources */ = {isa = PBXBuildFile; fileRef = E16278EF16DB5AE700F6D930 /* stone.png */; };
 		E162793316DB5AE700F6D930 /* watermelon.png in Resources */ = {isa = PBXBuildFile; fileRef = E16278F016DB5AE700F6D930 /* watermelon.png */; };
 		E162793416DB5AE700F6D930 /* watermelonSlice.png in Resources */ = {isa = PBXBuildFile; fileRef = E16278F116DB5AE700F6D930 /* watermelonSlice.png */; };
-		E162795916DB5B0B00F6D930 /* Component.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162793916DB5B0A00F6D930 /* Component.cpp */; };
-		E162795A16DB5B0B00F6D930 /* ComponentType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162793C16DB5B0B00F6D930 /* ComponentType.cpp */; };
-		E162795B16DB5B0B00F6D930 /* ComponentTypeManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162793E16DB5B0B00F6D930 /* ComponentTypeManager.cpp */; };
-		E162795C16DB5B0B00F6D930 /* DelayedEntityProcessingSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162794016DB5B0B00F6D930 /* DelayedEntityProcessingSystem.cpp */; };
-		E162795D16DB5B0B00F6D930 /* DelayedEntitySystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162794216DB5B0B00F6D930 /* DelayedEntitySystem.cpp */; };
-		E162795E16DB5B0B00F6D930 /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162794416DB5B0B00F6D930 /* Entity.cpp */; };
-		E162795F16DB5B0B00F6D930 /* EntityManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162794616DB5B0B00F6D930 /* EntityManager.cpp */; };
-		E162796016DB5B0B00F6D930 /* EntityProcessingSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162794816DB5B0B00F6D930 /* EntityProcessingSystem.cpp */; };
-		E162796116DB5B0B00F6D930 /* EntitySystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162794A16DB5B0B00F6D930 /* EntitySystem.cpp */; };
-		E162796216DB5B0B00F6D930 /* GroupManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162794C16DB5B0B00F6D930 /* GroupManager.cpp */; };
-		E162796316DB5B0B00F6D930 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E162794F16DB5B0B00F6D930 /* README.md */; };
-		E162796416DB5B0B00F6D930 /* SystemBitManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162795016DB5B0B00F6D930 /* SystemBitManager.cpp */; };
-		E162796516DB5B0B00F6D930 /* SystemManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162795216DB5B0B00F6D930 /* SystemManager.cpp */; };
-		E162796616DB5B0B00F6D930 /* TagManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162795416DB5B0B00F6D930 /* TagManager.cpp */; };
-		E162796716DB5B0B00F6D930 /* World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162795716DB5B0B00F6D930 /* World.cpp */; };
-		E162799F16DB5B2200F6D930 /* CollisionSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162796816DB5B2100F6D930 /* CollisionSystem.cpp */; };
-		E16279A016DB5B2200F6D930 /* DamageComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162796B16DB5B2200F6D930 /* DamageComponent.cpp */; };
 		E16279A116DB5B2200F6D930 /* Database.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162796D16DB5B2200F6D930 /* Database.cpp */; };
 		E16279A216DB5B2200F6D930 /* EndGameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162797116DB5B2200F6D930 /* EndGameScene.cpp */; };
 		E16279A316DB5B2200F6D930 /* EntityFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162797316DB5B2200F6D930 /* EntityFactory.cpp */; };
-		E16279A416DB5B2200F6D930 /* FinderFollowedComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162797516DB5B2200F6D930 /* FinderFollowedComponent.cpp */; };
 		E16279A516DB5B2200F6D930 /* GamePlayScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162797716DB5B2200F6D930 /* GamePlayScene.cpp */; };
-		E16279A616DB5B2200F6D930 /* GraphicComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162797916DB5B2200F6D930 /* GraphicComponent.cpp */; };
-		E16279A716DB5B2200F6D930 /* HeathComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162797B16DB5B2200F6D930 /* HeathComponent.cpp */; };
 		E16279A816DB5B2200F6D930 /* HighScoreLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162797D16DB5B2200F6D930 /* HighScoreLayer.cpp */; };
 		E16279A916DB5B2200F6D930 /* HowToPlayScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162797F16DB5B2200F6D930 /* HowToPlayScene.cpp */; };
 		E16279AA16DB5B2200F6D930 /* InsideMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162798116DB5B2200F6D930 /* InsideMenu.cpp */; };
-		E16279AB16DB5B2200F6D930 /* LionFollowedComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162798316DB5B2200F6D930 /* LionFollowedComponent.cpp */; };
-		E16279AC16DB5B2200F6D930 /* LionRoarSkillSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162798616DB5B2200F6D930 /* LionRoarSkillSystem.cpp */; };
 		E16279AD16DB5B2200F6D930 /* MainMenuLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162798816DB5B2200F6D930 /* MainMenuLayer.cpp */; };
-		E16279AE16DB5B2200F6D930 /* MovementSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162798A16DB5B2200F6D930 /* MovementSystem.cpp */; };
-		E16279AF16DB5B2200F6D930 /* OnScreenBoundarySystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162798D16DB5B2200F6D930 /* OnScreenBoundarySystem.cpp */; };
-		E16279B016DB5B2200F6D930 /* PhysicalComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162798F16DB5B2200F6D930 /* PhysicalComponent.cpp */; };
-		E16279B116DB5B2200F6D930 /* PhysicalSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162799116DB5B2200F6D930 /* PhysicalSystem.cpp */; };
-		E16279B216DB5B2200F6D930 /* PlayerControllerSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162799316DB5B2200F6D930 /* PlayerControllerSystem.cpp */; };
-		E16279B316DB5B2200F6D930 /* ReleaseShitSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162799616DB5B2200F6D930 /* ReleaseShitSystem.cpp */; };
-		E16279B416DB5B2200F6D930 /* ScoreComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162799816DB5B2200F6D930 /* ScoreComponent.cpp */; };
-		E16279B516DB5B2200F6D930 /* SnakeFollowedComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162799B16DB5B2200F6D930 /* SnakeFollowedComponent.cpp */; };
-		E16279B616DB5B2200F6D930 /* VelocityComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E162799D16DB5B2200F6D930 /* VelocityComponent.cpp */; };
 		E1D5E72116DB4B9E00DF170C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D5E72016DB4B9E00DF170C /* QuartzCore.framework */; };
 		E1D5E72316DB4B9E00DF170C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D5E72216DB4B9E00DF170C /* OpenGLES.framework */; };
 		E1D5E72516DB4B9E00DF170C /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D5E72416DB4B9E00DF170C /* OpenAL.framework */; };
@@ -334,6 +333,74 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E12C900716DC88CF0030A238 /* BitSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BitSize.h; path = ../../Classes/artemis/BitSize.h; sourceTree = "<group>"; };
+		E12C900816DC88CF0030A238 /* Component.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Component.cpp; path = ../../Classes/artemis/Component.cpp; sourceTree = "<group>"; };
+		E12C900916DC88CF0030A238 /* Component.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Component.h; path = ../../Classes/artemis/Component.h; sourceTree = "<group>"; };
+		E12C900A16DC88CF0030A238 /* ComponentMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComponentMapper.h; path = ../../Classes/artemis/ComponentMapper.h; sourceTree = "<group>"; };
+		E12C900B16DC88CF0030A238 /* ComponentType.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ComponentType.cpp; path = ../../Classes/artemis/ComponentType.cpp; sourceTree = "<group>"; };
+		E12C900C16DC88CF0030A238 /* ComponentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComponentType.h; path = ../../Classes/artemis/ComponentType.h; sourceTree = "<group>"; };
+		E12C900D16DC88CF0030A238 /* ComponentTypeManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ComponentTypeManager.cpp; path = ../../Classes/artemis/ComponentTypeManager.cpp; sourceTree = "<group>"; };
+		E12C900E16DC88CF0030A238 /* ComponentTypeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComponentTypeManager.h; path = ../../Classes/artemis/ComponentTypeManager.h; sourceTree = "<group>"; };
+		E12C900F16DC88CF0030A238 /* DelayedEntityProcessingSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DelayedEntityProcessingSystem.cpp; path = ../../Classes/artemis/DelayedEntityProcessingSystem.cpp; sourceTree = "<group>"; };
+		E12C901016DC88CF0030A238 /* DelayedEntityProcessingSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DelayedEntityProcessingSystem.h; path = ../../Classes/artemis/DelayedEntityProcessingSystem.h; sourceTree = "<group>"; };
+		E12C901116DC88CF0030A238 /* DelayedEntitySystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DelayedEntitySystem.cpp; path = ../../Classes/artemis/DelayedEntitySystem.cpp; sourceTree = "<group>"; };
+		E12C901216DC88CF0030A238 /* DelayedEntitySystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DelayedEntitySystem.h; path = ../../Classes/artemis/DelayedEntitySystem.h; sourceTree = "<group>"; };
+		E12C901316DC88CF0030A238 /* Entity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Entity.cpp; path = ../../Classes/artemis/Entity.cpp; sourceTree = "<group>"; };
+		E12C901416DC88CF0030A238 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Entity.h; path = ../../Classes/artemis/Entity.h; sourceTree = "<group>"; };
+		E12C901516DC88CF0030A238 /* EntityManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EntityManager.cpp; path = ../../Classes/artemis/EntityManager.cpp; sourceTree = "<group>"; };
+		E12C901616DC88CF0030A238 /* EntityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EntityManager.h; path = ../../Classes/artemis/EntityManager.h; sourceTree = "<group>"; };
+		E12C901716DC88CF0030A238 /* EntityProcessingSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EntityProcessingSystem.cpp; path = ../../Classes/artemis/EntityProcessingSystem.cpp; sourceTree = "<group>"; };
+		E12C901816DC88CF0030A238 /* EntityProcessingSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EntityProcessingSystem.h; path = ../../Classes/artemis/EntityProcessingSystem.h; sourceTree = "<group>"; };
+		E12C901916DC88CF0030A238 /* EntitySystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EntitySystem.cpp; path = ../../Classes/artemis/EntitySystem.cpp; sourceTree = "<group>"; };
+		E12C901A16DC88CF0030A238 /* EntitySystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EntitySystem.h; path = ../../Classes/artemis/EntitySystem.h; sourceTree = "<group>"; };
+		E12C901B16DC88CF0030A238 /* GroupManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GroupManager.cpp; path = ../../Classes/artemis/GroupManager.cpp; sourceTree = "<group>"; };
+		E12C901C16DC88D00030A238 /* GroupManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroupManager.h; path = ../../Classes/artemis/GroupManager.h; sourceTree = "<group>"; };
+		E12C901D16DC88D00030A238 /* ImmutableBag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImmutableBag.h; path = ../../Classes/artemis/ImmutableBag.h; sourceTree = "<group>"; };
+		E12C901E16DC88D00030A238 /* SystemBitManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SystemBitManager.cpp; path = ../../Classes/artemis/SystemBitManager.cpp; sourceTree = "<group>"; };
+		E12C901F16DC88D00030A238 /* SystemBitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SystemBitManager.h; path = ../../Classes/artemis/SystemBitManager.h; sourceTree = "<group>"; };
+		E12C902016DC88D00030A238 /* SystemManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SystemManager.cpp; path = ../../Classes/artemis/SystemManager.cpp; sourceTree = "<group>"; };
+		E12C902116DC88D00030A238 /* SystemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SystemManager.h; path = ../../Classes/artemis/SystemManager.h; sourceTree = "<group>"; };
+		E12C902216DC88D00030A238 /* TagManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TagManager.cpp; path = ../../Classes/artemis/TagManager.cpp; sourceTree = "<group>"; };
+		E12C902316DC88D00030A238 /* TagManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TagManager.h; path = ../../Classes/artemis/TagManager.h; sourceTree = "<group>"; };
+		E12C902416DC88D00030A238 /* TypeInfoComparator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TypeInfoComparator.h; path = ../../Classes/artemis/TypeInfoComparator.h; sourceTree = "<group>"; };
+		E12C902516DC88D00030A238 /* World.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = World.cpp; path = ../../Classes/artemis/World.cpp; sourceTree = "<group>"; };
+		E12C902616DC88D00030A238 /* World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = World.h; path = ../../Classes/artemis/World.h; sourceTree = "<group>"; };
+		E12C903616DC8A4E0030A238 /* DamageComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DamageComponent.cpp; path = ../../Classes/components/DamageComponent.cpp; sourceTree = "<group>"; };
+		E12C903716DC8A4E0030A238 /* DamageComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DamageComponent.h; path = ../../Classes/components/DamageComponent.h; sourceTree = "<group>"; };
+		E12C903816DC8A4E0030A238 /* DefaultPositionComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DefaultPositionComponent.h; path = ../../Classes/components/DefaultPositionComponent.h; sourceTree = "<group>"; };
+		E12C903916DC8A4E0030A238 /* FinderFollowedComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FinderFollowedComponent.cpp; path = ../../Classes/components/FinderFollowedComponent.cpp; sourceTree = "<group>"; };
+		E12C903A16DC8A4E0030A238 /* FinderFollowedComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FinderFollowedComponent.h; path = ../../Classes/components/FinderFollowedComponent.h; sourceTree = "<group>"; };
+		E12C903B16DC8A4E0030A238 /* GraphicComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GraphicComponent.cpp; path = ../../Classes/components/GraphicComponent.cpp; sourceTree = "<group>"; };
+		E12C903C16DC8A4E0030A238 /* GraphicComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraphicComponent.h; path = ../../Classes/components/GraphicComponent.h; sourceTree = "<group>"; };
+		E12C903D16DC8A4E0030A238 /* HeathComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HeathComponent.cpp; path = ../../Classes/components/HeathComponent.cpp; sourceTree = "<group>"; };
+		E12C903E16DC8A4E0030A238 /* HeathComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeathComponent.h; path = ../../Classes/components/HeathComponent.h; sourceTree = "<group>"; };
+		E12C903F16DC8A4E0030A238 /* LionFollowedComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LionFollowedComponent.cpp; path = ../../Classes/components/LionFollowedComponent.cpp; sourceTree = "<group>"; };
+		E12C904016DC8A4E0030A238 /* LionFollowedComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LionFollowedComponent.h; path = ../../Classes/components/LionFollowedComponent.h; sourceTree = "<group>"; };
+		E12C904116DC8A4E0030A238 /* LionRoarSkillComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LionRoarSkillComponent.h; path = ../../Classes/components/LionRoarSkillComponent.h; sourceTree = "<group>"; };
+		E12C904216DC8A4E0030A238 /* OnScreenBoundaryComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OnScreenBoundaryComponent.h; path = ../../Classes/components/OnScreenBoundaryComponent.h; sourceTree = "<group>"; };
+		E12C904316DC8A4E0030A238 /* PhysicalComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PhysicalComponent.cpp; path = ../../Classes/components/PhysicalComponent.cpp; sourceTree = "<group>"; };
+		E12C904416DC8A4E0030A238 /* PhysicalComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhysicalComponent.h; path = ../../Classes/components/PhysicalComponent.h; sourceTree = "<group>"; };
+		E12C904516DC8A4E0030A238 /* ReleaseShitComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReleaseShitComponent.h; path = ../../Classes/components/ReleaseShitComponent.h; sourceTree = "<group>"; };
+		E12C904616DC8A4E0030A238 /* ScoreComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScoreComponent.cpp; path = ../../Classes/components/ScoreComponent.cpp; sourceTree = "<group>"; };
+		E12C904716DC8A4E0030A238 /* ScoreComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScoreComponent.h; path = ../../Classes/components/ScoreComponent.h; sourceTree = "<group>"; };
+		E12C904816DC8A4E0030A238 /* SnakeFollowedComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SnakeFollowedComponent.cpp; path = ../../Classes/components/SnakeFollowedComponent.cpp; sourceTree = "<group>"; };
+		E12C904916DC8A4E0030A238 /* SnakeFollowedComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnakeFollowedComponent.h; path = ../../Classes/components/SnakeFollowedComponent.h; sourceTree = "<group>"; };
+		E12C904A16DC8A4E0030A238 /* VelocityComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VelocityComponent.cpp; path = ../../Classes/components/VelocityComponent.cpp; sourceTree = "<group>"; };
+		E12C904B16DC8A4E0030A238 /* VelocityComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VelocityComponent.h; path = ../../Classes/components/VelocityComponent.h; sourceTree = "<group>"; };
+		E12C905516DC8A6B0030A238 /* CollisionSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CollisionSystem.cpp; path = ../../Classes/systems/CollisionSystem.cpp; sourceTree = "<group>"; };
+		E12C905616DC8A6B0030A238 /* CollisionSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollisionSystem.h; path = ../../Classes/systems/CollisionSystem.h; sourceTree = "<group>"; };
+		E12C905716DC8A6B0030A238 /* LionRoarSkillSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LionRoarSkillSystem.cpp; path = ../../Classes/systems/LionRoarSkillSystem.cpp; sourceTree = "<group>"; };
+		E12C905816DC8A6B0030A238 /* LionRoarSkillSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LionRoarSkillSystem.h; path = ../../Classes/systems/LionRoarSkillSystem.h; sourceTree = "<group>"; };
+		E12C905916DC8A6B0030A238 /* MovementSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MovementSystem.cpp; path = ../../Classes/systems/MovementSystem.cpp; sourceTree = "<group>"; };
+		E12C905A16DC8A6B0030A238 /* MovementSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MovementSystem.h; path = ../../Classes/systems/MovementSystem.h; sourceTree = "<group>"; };
+		E12C905B16DC8A6B0030A238 /* OnScreenBoundarySystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OnScreenBoundarySystem.cpp; path = ../../Classes/systems/OnScreenBoundarySystem.cpp; sourceTree = "<group>"; };
+		E12C905C16DC8A6B0030A238 /* OnScreenBoundarySystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OnScreenBoundarySystem.h; path = ../../Classes/systems/OnScreenBoundarySystem.h; sourceTree = "<group>"; };
+		E12C905D16DC8A6B0030A238 /* PhysicalSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PhysicalSystem.cpp; path = ../../Classes/systems/PhysicalSystem.cpp; sourceTree = "<group>"; };
+		E12C905E16DC8A6B0030A238 /* PhysicalSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhysicalSystem.h; path = ../../Classes/systems/PhysicalSystem.h; sourceTree = "<group>"; };
+		E12C905F16DC8A6B0030A238 /* PlayerControllerSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PlayerControllerSystem.cpp; path = ../../Classes/systems/PlayerControllerSystem.cpp; sourceTree = "<group>"; };
+		E12C906016DC8A6B0030A238 /* PlayerControllerSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerControllerSystem.h; path = ../../Classes/systems/PlayerControllerSystem.h; sourceTree = "<group>"; };
+		E12C906116DC8A6B0030A238 /* ReleaseShitSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ReleaseShitSystem.cpp; path = ../../Classes/systems/ReleaseShitSystem.cpp; sourceTree = "<group>"; };
+		E12C906216DC8A6B0030A238 /* ReleaseShitSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReleaseShitSystem.h; path = ../../Classes/systems/ReleaseShitSystem.h; sourceTree = "<group>"; };
 		E16278AF16DB5AE700F6D930 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../Resources/background.png; sourceTree = "<group>"; };
 		E16278B016DB5AE700F6D930 /* backgroundGameScene.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backgroundGameScene.png; path = ../../Resources/backgroundGameScene.png; sourceTree = "<group>"; };
 		E16278B116DB5AE700F6D930 /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = backgroundMusic.mp3; path = ../../Resources/backgroundMusic.mp3; sourceTree = "<group>"; };
@@ -401,92 +468,23 @@
 		E16278EF16DB5AE700F6D930 /* stone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stone.png; path = ../../Resources/stone.png; sourceTree = "<group>"; };
 		E16278F016DB5AE700F6D930 /* watermelon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = watermelon.png; path = ../../Resources/watermelon.png; sourceTree = "<group>"; };
 		E16278F116DB5AE700F6D930 /* watermelonSlice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = watermelonSlice.png; path = ../../Resources/watermelonSlice.png; sourceTree = "<group>"; };
-		E162793816DB5B0A00F6D930 /* BitSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BitSize.h; path = ../../Classes/artemis/BitSize.h; sourceTree = "<group>"; };
-		E162793916DB5B0A00F6D930 /* Component.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Component.cpp; path = ../../Classes/artemis/Component.cpp; sourceTree = "<group>"; };
-		E162793A16DB5B0A00F6D930 /* Component.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Component.h; path = ../../Classes/artemis/Component.h; sourceTree = "<group>"; };
-		E162793B16DB5B0B00F6D930 /* ComponentMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComponentMapper.h; path = ../../Classes/artemis/ComponentMapper.h; sourceTree = "<group>"; };
-		E162793C16DB5B0B00F6D930 /* ComponentType.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ComponentType.cpp; path = ../../Classes/artemis/ComponentType.cpp; sourceTree = "<group>"; };
-		E162793D16DB5B0B00F6D930 /* ComponentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComponentType.h; path = ../../Classes/artemis/ComponentType.h; sourceTree = "<group>"; };
-		E162793E16DB5B0B00F6D930 /* ComponentTypeManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ComponentTypeManager.cpp; path = ../../Classes/artemis/ComponentTypeManager.cpp; sourceTree = "<group>"; };
-		E162793F16DB5B0B00F6D930 /* ComponentTypeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComponentTypeManager.h; path = ../../Classes/artemis/ComponentTypeManager.h; sourceTree = "<group>"; };
-		E162794016DB5B0B00F6D930 /* DelayedEntityProcessingSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DelayedEntityProcessingSystem.cpp; path = ../../Classes/artemis/DelayedEntityProcessingSystem.cpp; sourceTree = "<group>"; };
-		E162794116DB5B0B00F6D930 /* DelayedEntityProcessingSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DelayedEntityProcessingSystem.h; path = ../../Classes/artemis/DelayedEntityProcessingSystem.h; sourceTree = "<group>"; };
-		E162794216DB5B0B00F6D930 /* DelayedEntitySystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DelayedEntitySystem.cpp; path = ../../Classes/artemis/DelayedEntitySystem.cpp; sourceTree = "<group>"; };
-		E162794316DB5B0B00F6D930 /* DelayedEntitySystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DelayedEntitySystem.h; path = ../../Classes/artemis/DelayedEntitySystem.h; sourceTree = "<group>"; };
-		E162794416DB5B0B00F6D930 /* Entity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Entity.cpp; path = ../../Classes/artemis/Entity.cpp; sourceTree = "<group>"; };
-		E162794516DB5B0B00F6D930 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Entity.h; path = ../../Classes/artemis/Entity.h; sourceTree = "<group>"; };
-		E162794616DB5B0B00F6D930 /* EntityManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EntityManager.cpp; path = ../../Classes/artemis/EntityManager.cpp; sourceTree = "<group>"; };
-		E162794716DB5B0B00F6D930 /* EntityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EntityManager.h; path = ../../Classes/artemis/EntityManager.h; sourceTree = "<group>"; };
-		E162794816DB5B0B00F6D930 /* EntityProcessingSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EntityProcessingSystem.cpp; path = ../../Classes/artemis/EntityProcessingSystem.cpp; sourceTree = "<group>"; };
-		E162794916DB5B0B00F6D930 /* EntityProcessingSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EntityProcessingSystem.h; path = ../../Classes/artemis/EntityProcessingSystem.h; sourceTree = "<group>"; };
-		E162794A16DB5B0B00F6D930 /* EntitySystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EntitySystem.cpp; path = ../../Classes/artemis/EntitySystem.cpp; sourceTree = "<group>"; };
-		E162794B16DB5B0B00F6D930 /* EntitySystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EntitySystem.h; path = ../../Classes/artemis/EntitySystem.h; sourceTree = "<group>"; };
-		E162794C16DB5B0B00F6D930 /* GroupManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GroupManager.cpp; path = ../../Classes/artemis/GroupManager.cpp; sourceTree = "<group>"; };
-		E162794D16DB5B0B00F6D930 /* GroupManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroupManager.h; path = ../../Classes/artemis/GroupManager.h; sourceTree = "<group>"; };
-		E162794E16DB5B0B00F6D930 /* ImmutableBag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImmutableBag.h; path = ../../Classes/artemis/ImmutableBag.h; sourceTree = "<group>"; };
-		E162794F16DB5B0B00F6D930 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../../Classes/artemis/README.md; sourceTree = "<group>"; };
-		E162795016DB5B0B00F6D930 /* SystemBitManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SystemBitManager.cpp; path = ../../Classes/artemis/SystemBitManager.cpp; sourceTree = "<group>"; };
-		E162795116DB5B0B00F6D930 /* SystemBitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SystemBitManager.h; path = ../../Classes/artemis/SystemBitManager.h; sourceTree = "<group>"; };
-		E162795216DB5B0B00F6D930 /* SystemManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SystemManager.cpp; path = ../../Classes/artemis/SystemManager.cpp; sourceTree = "<group>"; };
-		E162795316DB5B0B00F6D930 /* SystemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SystemManager.h; path = ../../Classes/artemis/SystemManager.h; sourceTree = "<group>"; };
-		E162795416DB5B0B00F6D930 /* TagManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TagManager.cpp; path = ../../Classes/artemis/TagManager.cpp; sourceTree = "<group>"; };
-		E162795516DB5B0B00F6D930 /* TagManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TagManager.h; path = ../../Classes/artemis/TagManager.h; sourceTree = "<group>"; };
-		E162795616DB5B0B00F6D930 /* TypeInfoComparator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TypeInfoComparator.h; path = ../../Classes/artemis/TypeInfoComparator.h; sourceTree = "<group>"; };
-		E162795716DB5B0B00F6D930 /* World.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = World.cpp; path = ../../Classes/artemis/World.cpp; sourceTree = "<group>"; };
-		E162795816DB5B0B00F6D930 /* World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = World.h; path = ../../Classes/artemis/World.h; sourceTree = "<group>"; };
-		E162796816DB5B2100F6D930 /* CollisionSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CollisionSystem.cpp; path = ../../Classes/CollisionSystem.cpp; sourceTree = "<group>"; };
-		E162796916DB5B2100F6D930 /* CollisionSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollisionSystem.h; path = ../../Classes/CollisionSystem.h; sourceTree = "<group>"; };
 		E162796A16DB5B2200F6D930 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = ../../Classes/Constants.h; sourceTree = "<group>"; };
-		E162796B16DB5B2200F6D930 /* DamageComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DamageComponent.cpp; path = ../../Classes/DamageComponent.cpp; sourceTree = "<group>"; };
-		E162796C16DB5B2200F6D930 /* DamageComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DamageComponent.h; path = ../../Classes/DamageComponent.h; sourceTree = "<group>"; };
 		E162796D16DB5B2200F6D930 /* Database.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Database.cpp; path = ../../Classes/Database.cpp; sourceTree = "<group>"; };
 		E162796E16DB5B2200F6D930 /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Database.h; path = ../../Classes/Database.h; sourceTree = "<group>"; };
-		E162796F16DB5B2200F6D930 /* DefaultPositionComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DefaultPositionComponent.h; path = ../../Classes/DefaultPositionComponent.h; sourceTree = "<group>"; };
 		E162797116DB5B2200F6D930 /* EndGameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EndGameScene.cpp; path = ../../Classes/EndGameScene.cpp; sourceTree = "<group>"; };
 		E162797216DB5B2200F6D930 /* EndGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EndGameScene.h; path = ../../Classes/EndGameScene.h; sourceTree = "<group>"; };
 		E162797316DB5B2200F6D930 /* EntityFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EntityFactory.cpp; path = ../../Classes/EntityFactory.cpp; sourceTree = "<group>"; };
 		E162797416DB5B2200F6D930 /* EntityFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EntityFactory.h; path = ../../Classes/EntityFactory.h; sourceTree = "<group>"; };
-		E162797516DB5B2200F6D930 /* FinderFollowedComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FinderFollowedComponent.cpp; path = ../../Classes/FinderFollowedComponent.cpp; sourceTree = "<group>"; };
-		E162797616DB5B2200F6D930 /* FinderFollowedComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FinderFollowedComponent.h; path = ../../Classes/FinderFollowedComponent.h; sourceTree = "<group>"; };
 		E162797716DB5B2200F6D930 /* GamePlayScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GamePlayScene.cpp; path = ../../Classes/GamePlayScene.cpp; sourceTree = "<group>"; };
 		E162797816DB5B2200F6D930 /* GamePlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GamePlayScene.h; path = ../../Classes/GamePlayScene.h; sourceTree = "<group>"; };
-		E162797916DB5B2200F6D930 /* GraphicComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GraphicComponent.cpp; path = ../../Classes/GraphicComponent.cpp; sourceTree = "<group>"; };
-		E162797A16DB5B2200F6D930 /* GraphicComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraphicComponent.h; path = ../../Classes/GraphicComponent.h; sourceTree = "<group>"; };
-		E162797B16DB5B2200F6D930 /* HeathComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HeathComponent.cpp; path = ../../Classes/HeathComponent.cpp; sourceTree = "<group>"; };
-		E162797C16DB5B2200F6D930 /* HeathComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeathComponent.h; path = ../../Classes/HeathComponent.h; sourceTree = "<group>"; };
 		E162797D16DB5B2200F6D930 /* HighScoreLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HighScoreLayer.cpp; path = ../../Classes/HighScoreLayer.cpp; sourceTree = "<group>"; };
 		E162797E16DB5B2200F6D930 /* HighScoreLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HighScoreLayer.h; path = ../../Classes/HighScoreLayer.h; sourceTree = "<group>"; };
 		E162797F16DB5B2200F6D930 /* HowToPlayScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HowToPlayScene.cpp; path = ../../Classes/HowToPlayScene.cpp; sourceTree = "<group>"; };
 		E162798016DB5B2200F6D930 /* HowToPlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HowToPlayScene.h; path = ../../Classes/HowToPlayScene.h; sourceTree = "<group>"; };
 		E162798116DB5B2200F6D930 /* InsideMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = InsideMenu.cpp; path = ../../Classes/InsideMenu.cpp; sourceTree = "<group>"; };
 		E162798216DB5B2200F6D930 /* InsideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InsideMenu.h; path = ../../Classes/InsideMenu.h; sourceTree = "<group>"; };
-		E162798316DB5B2200F6D930 /* LionFollowedComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LionFollowedComponent.cpp; path = ../../Classes/LionFollowedComponent.cpp; sourceTree = "<group>"; };
-		E162798416DB5B2200F6D930 /* LionFollowedComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LionFollowedComponent.h; path = ../../Classes/LionFollowedComponent.h; sourceTree = "<group>"; };
-		E162798516DB5B2200F6D930 /* LionRoarSkillComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LionRoarSkillComponent.h; path = ../../Classes/LionRoarSkillComponent.h; sourceTree = "<group>"; };
-		E162798616DB5B2200F6D930 /* LionRoarSkillSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LionRoarSkillSystem.cpp; path = ../../Classes/LionRoarSkillSystem.cpp; sourceTree = "<group>"; };
-		E162798716DB5B2200F6D930 /* LionRoarSkillSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LionRoarSkillSystem.h; path = ../../Classes/LionRoarSkillSystem.h; sourceTree = "<group>"; };
 		E162798816DB5B2200F6D930 /* MainMenuLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MainMenuLayer.cpp; path = ../../Classes/MainMenuLayer.cpp; sourceTree = "<group>"; };
 		E162798916DB5B2200F6D930 /* MainMenuLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenuLayer.h; path = ../../Classes/MainMenuLayer.h; sourceTree = "<group>"; };
-		E162798A16DB5B2200F6D930 /* MovementSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MovementSystem.cpp; path = ../../Classes/MovementSystem.cpp; sourceTree = "<group>"; };
-		E162798B16DB5B2200F6D930 /* MovementSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MovementSystem.h; path = ../../Classes/MovementSystem.h; sourceTree = "<group>"; };
-		E162798C16DB5B2200F6D930 /* OnScreenBoundaryComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OnScreenBoundaryComponent.h; path = ../../Classes/OnScreenBoundaryComponent.h; sourceTree = "<group>"; };
-		E162798D16DB5B2200F6D930 /* OnScreenBoundarySystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OnScreenBoundarySystem.cpp; path = ../../Classes/OnScreenBoundarySystem.cpp; sourceTree = "<group>"; };
-		E162798E16DB5B2200F6D930 /* OnScreenBoundarySystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OnScreenBoundarySystem.h; path = ../../Classes/OnScreenBoundarySystem.h; sourceTree = "<group>"; };
-		E162798F16DB5B2200F6D930 /* PhysicalComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PhysicalComponent.cpp; path = ../../Classes/PhysicalComponent.cpp; sourceTree = "<group>"; };
-		E162799016DB5B2200F6D930 /* PhysicalComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhysicalComponent.h; path = ../../Classes/PhysicalComponent.h; sourceTree = "<group>"; };
-		E162799116DB5B2200F6D930 /* PhysicalSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PhysicalSystem.cpp; path = ../../Classes/PhysicalSystem.cpp; sourceTree = "<group>"; };
-		E162799216DB5B2200F6D930 /* PhysicalSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhysicalSystem.h; path = ../../Classes/PhysicalSystem.h; sourceTree = "<group>"; };
-		E162799316DB5B2200F6D930 /* PlayerControllerSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PlayerControllerSystem.cpp; path = ../../Classes/PlayerControllerSystem.cpp; sourceTree = "<group>"; };
-		E162799416DB5B2200F6D930 /* PlayerControllerSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerControllerSystem.h; path = ../../Classes/PlayerControllerSystem.h; sourceTree = "<group>"; };
-		E162799516DB5B2200F6D930 /* ReleaseShitComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReleaseShitComponent.h; path = ../../Classes/ReleaseShitComponent.h; sourceTree = "<group>"; };
-		E162799616DB5B2200F6D930 /* ReleaseShitSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ReleaseShitSystem.cpp; path = ../../Classes/ReleaseShitSystem.cpp; sourceTree = "<group>"; };
-		E162799716DB5B2200F6D930 /* ReleaseShitSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReleaseShitSystem.h; path = ../../Classes/ReleaseShitSystem.h; sourceTree = "<group>"; };
-		E162799816DB5B2200F6D930 /* ScoreComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ScoreComponent.cpp; path = ../../Classes/ScoreComponent.cpp; sourceTree = "<group>"; };
-		E162799916DB5B2200F6D930 /* ScoreComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScoreComponent.h; path = ../../Classes/ScoreComponent.h; sourceTree = "<group>"; };
-		E162799B16DB5B2200F6D930 /* SnakeFollowedComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SnakeFollowedComponent.cpp; path = ../../Classes/SnakeFollowedComponent.cpp; sourceTree = "<group>"; };
-		E162799C16DB5B2200F6D930 /* SnakeFollowedComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SnakeFollowedComponent.h; path = ../../Classes/SnakeFollowedComponent.h; sourceTree = "<group>"; };
-		E162799D16DB5B2200F6D930 /* VelocityComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VelocityComponent.cpp; path = ../../Classes/VelocityComponent.cpp; sourceTree = "<group>"; };
-		E162799E16DB5B2200F6D930 /* VelocityComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VelocityComponent.h; path = ../../Classes/VelocityComponent.h; sourceTree = "<group>"; };
 		E1D5E71D16DB4B9E00DF170C /* NastyBirds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NastyBirds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1D5E72016DB4B9E00DF170C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E1D5E72216DB4B9E00DF170C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -982,6 +980,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E12C8FE916DC88940030A238 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				E12C903616DC8A4E0030A238 /* DamageComponent.cpp */,
+				E12C903716DC8A4E0030A238 /* DamageComponent.h */,
+				E12C903816DC8A4E0030A238 /* DefaultPositionComponent.h */,
+				E12C903916DC8A4E0030A238 /* FinderFollowedComponent.cpp */,
+				E12C903A16DC8A4E0030A238 /* FinderFollowedComponent.h */,
+				E12C903B16DC8A4E0030A238 /* GraphicComponent.cpp */,
+				E12C903C16DC8A4E0030A238 /* GraphicComponent.h */,
+				E12C903D16DC8A4E0030A238 /* HeathComponent.cpp */,
+				E12C903E16DC8A4E0030A238 /* HeathComponent.h */,
+				E12C903F16DC8A4E0030A238 /* LionFollowedComponent.cpp */,
+				E12C904016DC8A4E0030A238 /* LionFollowedComponent.h */,
+				E12C904116DC8A4E0030A238 /* LionRoarSkillComponent.h */,
+				E12C904216DC8A4E0030A238 /* OnScreenBoundaryComponent.h */,
+				E12C904316DC8A4E0030A238 /* PhysicalComponent.cpp */,
+				E12C904416DC8A4E0030A238 /* PhysicalComponent.h */,
+				E12C904516DC8A4E0030A238 /* ReleaseShitComponent.h */,
+				E12C904616DC8A4E0030A238 /* ScoreComponent.cpp */,
+				E12C904716DC8A4E0030A238 /* ScoreComponent.h */,
+				E12C904816DC8A4E0030A238 /* SnakeFollowedComponent.cpp */,
+				E12C904916DC8A4E0030A238 /* SnakeFollowedComponent.h */,
+				E12C904A16DC8A4E0030A238 /* VelocityComponent.cpp */,
+				E12C904B16DC8A4E0030A238 /* VelocityComponent.h */,
+			);
+			name = components;
+			sourceTree = "<group>";
+		};
+		E12C900616DC88C00030A238 /* artemis */ = {
+			isa = PBXGroup;
+			children = (
+				E12C900716DC88CF0030A238 /* BitSize.h */,
+				E12C900816DC88CF0030A238 /* Component.cpp */,
+				E12C900916DC88CF0030A238 /* Component.h */,
+				E12C900A16DC88CF0030A238 /* ComponentMapper.h */,
+				E12C900B16DC88CF0030A238 /* ComponentType.cpp */,
+				E12C900C16DC88CF0030A238 /* ComponentType.h */,
+				E12C900D16DC88CF0030A238 /* ComponentTypeManager.cpp */,
+				E12C900E16DC88CF0030A238 /* ComponentTypeManager.h */,
+				E12C900F16DC88CF0030A238 /* DelayedEntityProcessingSystem.cpp */,
+				E12C901016DC88CF0030A238 /* DelayedEntityProcessingSystem.h */,
+				E12C901116DC88CF0030A238 /* DelayedEntitySystem.cpp */,
+				E12C901216DC88CF0030A238 /* DelayedEntitySystem.h */,
+				E12C901316DC88CF0030A238 /* Entity.cpp */,
+				E12C901416DC88CF0030A238 /* Entity.h */,
+				E12C901516DC88CF0030A238 /* EntityManager.cpp */,
+				E12C901616DC88CF0030A238 /* EntityManager.h */,
+				E12C901716DC88CF0030A238 /* EntityProcessingSystem.cpp */,
+				E12C901816DC88CF0030A238 /* EntityProcessingSystem.h */,
+				E12C901916DC88CF0030A238 /* EntitySystem.cpp */,
+				E12C901A16DC88CF0030A238 /* EntitySystem.h */,
+				E12C901B16DC88CF0030A238 /* GroupManager.cpp */,
+				E12C901C16DC88D00030A238 /* GroupManager.h */,
+				E12C901D16DC88D00030A238 /* ImmutableBag.h */,
+				E12C901E16DC88D00030A238 /* SystemBitManager.cpp */,
+				E12C901F16DC88D00030A238 /* SystemBitManager.h */,
+				E12C902016DC88D00030A238 /* SystemManager.cpp */,
+				E12C902116DC88D00030A238 /* SystemManager.h */,
+				E12C902216DC88D00030A238 /* TagManager.cpp */,
+				E12C902316DC88D00030A238 /* TagManager.h */,
+				E12C902416DC88D00030A238 /* TypeInfoComparator.h */,
+				E12C902516DC88D00030A238 /* World.cpp */,
+				E12C902616DC88D00030A238 /* World.h */,
+			);
+			name = artemis;
+			sourceTree = "<group>";
+		};
+		E12C903516DC8A220030A238 /* systems */ = {
+			isa = PBXGroup;
+			children = (
+				E12C905516DC8A6B0030A238 /* CollisionSystem.cpp */,
+				E12C905616DC8A6B0030A238 /* CollisionSystem.h */,
+				E12C905716DC8A6B0030A238 /* LionRoarSkillSystem.cpp */,
+				E12C905816DC8A6B0030A238 /* LionRoarSkillSystem.h */,
+				E12C905916DC8A6B0030A238 /* MovementSystem.cpp */,
+				E12C905A16DC8A6B0030A238 /* MovementSystem.h */,
+				E12C905B16DC8A6B0030A238 /* OnScreenBoundarySystem.cpp */,
+				E12C905C16DC8A6B0030A238 /* OnScreenBoundarySystem.h */,
+				E12C905D16DC8A6B0030A238 /* PhysicalSystem.cpp */,
+				E12C905E16DC8A6B0030A238 /* PhysicalSystem.h */,
+				E12C905F16DC8A6B0030A238 /* PlayerControllerSystem.cpp */,
+				E12C906016DC8A6B0030A238 /* PlayerControllerSystem.h */,
+				E12C906116DC8A6B0030A238 /* ReleaseShitSystem.cpp */,
+				E12C906216DC8A6B0030A238 /* ReleaseShitSystem.h */,
+			);
+			name = systems;
+			sourceTree = "<group>";
+		};
 		E13AE0C916DB50AD0084F028 /* Resourses */ = {
 			isa = PBXGroup;
 			children = (
@@ -1054,46 +1141,6 @@
 				E16278F116DB5AE700F6D930 /* watermelonSlice.png */,
 			);
 			name = Resourses;
-			sourceTree = "<group>";
-		};
-		E162793716DB5AFF00F6D930 /* artemis */ = {
-			isa = PBXGroup;
-			children = (
-				E162793816DB5B0A00F6D930 /* BitSize.h */,
-				E162793916DB5B0A00F6D930 /* Component.cpp */,
-				E162793A16DB5B0A00F6D930 /* Component.h */,
-				E162793B16DB5B0B00F6D930 /* ComponentMapper.h */,
-				E162793C16DB5B0B00F6D930 /* ComponentType.cpp */,
-				E162793D16DB5B0B00F6D930 /* ComponentType.h */,
-				E162793E16DB5B0B00F6D930 /* ComponentTypeManager.cpp */,
-				E162793F16DB5B0B00F6D930 /* ComponentTypeManager.h */,
-				E162794016DB5B0B00F6D930 /* DelayedEntityProcessingSystem.cpp */,
-				E162794116DB5B0B00F6D930 /* DelayedEntityProcessingSystem.h */,
-				E162794216DB5B0B00F6D930 /* DelayedEntitySystem.cpp */,
-				E162794316DB5B0B00F6D930 /* DelayedEntitySystem.h */,
-				E162794416DB5B0B00F6D930 /* Entity.cpp */,
-				E162794516DB5B0B00F6D930 /* Entity.h */,
-				E162794616DB5B0B00F6D930 /* EntityManager.cpp */,
-				E162794716DB5B0B00F6D930 /* EntityManager.h */,
-				E162794816DB5B0B00F6D930 /* EntityProcessingSystem.cpp */,
-				E162794916DB5B0B00F6D930 /* EntityProcessingSystem.h */,
-				E162794A16DB5B0B00F6D930 /* EntitySystem.cpp */,
-				E162794B16DB5B0B00F6D930 /* EntitySystem.h */,
-				E162794C16DB5B0B00F6D930 /* GroupManager.cpp */,
-				E162794D16DB5B0B00F6D930 /* GroupManager.h */,
-				E162794E16DB5B0B00F6D930 /* ImmutableBag.h */,
-				E162794F16DB5B0B00F6D930 /* README.md */,
-				E162795016DB5B0B00F6D930 /* SystemBitManager.cpp */,
-				E162795116DB5B0B00F6D930 /* SystemBitManager.h */,
-				E162795216DB5B0B00F6D930 /* SystemManager.cpp */,
-				E162795316DB5B0B00F6D930 /* SystemManager.h */,
-				E162795416DB5B0B00F6D930 /* TagManager.cpp */,
-				E162795516DB5B0B00F6D930 /* TagManager.h */,
-				E162795616DB5B0B00F6D930 /* TypeInfoComparator.h */,
-				E162795716DB5B0B00F6D930 /* World.cpp */,
-				E162795816DB5B0B00F6D930 /* World.h */,
-			);
-			name = artemis;
 			sourceTree = "<group>";
 		};
 		E1D5E71416DB4B9E00DF170C = {
@@ -2019,60 +2066,26 @@
 		E1D5EA1D16DB4BA500DF170C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E162793716DB5AFF00F6D930 /* artemis */,
-				E162796816DB5B2100F6D930 /* CollisionSystem.cpp */,
-				E162796916DB5B2100F6D930 /* CollisionSystem.h */,
+				E12C900616DC88C00030A238 /* artemis */,
+				E12C903516DC8A220030A238 /* systems */,
+				E12C8FE916DC88940030A238 /* components */,
 				E162796A16DB5B2200F6D930 /* Constants.h */,
-				E162796B16DB5B2200F6D930 /* DamageComponent.cpp */,
-				E162796C16DB5B2200F6D930 /* DamageComponent.h */,
 				E162796D16DB5B2200F6D930 /* Database.cpp */,
 				E162796E16DB5B2200F6D930 /* Database.h */,
-				E162796F16DB5B2200F6D930 /* DefaultPositionComponent.h */,
 				E162797116DB5B2200F6D930 /* EndGameScene.cpp */,
 				E162797216DB5B2200F6D930 /* EndGameScene.h */,
 				E162797316DB5B2200F6D930 /* EntityFactory.cpp */,
 				E162797416DB5B2200F6D930 /* EntityFactory.h */,
-				E162797516DB5B2200F6D930 /* FinderFollowedComponent.cpp */,
-				E162797616DB5B2200F6D930 /* FinderFollowedComponent.h */,
 				E162797716DB5B2200F6D930 /* GamePlayScene.cpp */,
 				E162797816DB5B2200F6D930 /* GamePlayScene.h */,
-				E162797916DB5B2200F6D930 /* GraphicComponent.cpp */,
-				E162797A16DB5B2200F6D930 /* GraphicComponent.h */,
-				E162797B16DB5B2200F6D930 /* HeathComponent.cpp */,
-				E162797C16DB5B2200F6D930 /* HeathComponent.h */,
 				E162797D16DB5B2200F6D930 /* HighScoreLayer.cpp */,
 				E162797E16DB5B2200F6D930 /* HighScoreLayer.h */,
 				E162797F16DB5B2200F6D930 /* HowToPlayScene.cpp */,
 				E162798016DB5B2200F6D930 /* HowToPlayScene.h */,
 				E162798116DB5B2200F6D930 /* InsideMenu.cpp */,
 				E162798216DB5B2200F6D930 /* InsideMenu.h */,
-				E162798316DB5B2200F6D930 /* LionFollowedComponent.cpp */,
-				E162798416DB5B2200F6D930 /* LionFollowedComponent.h */,
-				E162798516DB5B2200F6D930 /* LionRoarSkillComponent.h */,
-				E162798616DB5B2200F6D930 /* LionRoarSkillSystem.cpp */,
-				E162798716DB5B2200F6D930 /* LionRoarSkillSystem.h */,
 				E162798816DB5B2200F6D930 /* MainMenuLayer.cpp */,
 				E162798916DB5B2200F6D930 /* MainMenuLayer.h */,
-				E162798A16DB5B2200F6D930 /* MovementSystem.cpp */,
-				E162798B16DB5B2200F6D930 /* MovementSystem.h */,
-				E162798C16DB5B2200F6D930 /* OnScreenBoundaryComponent.h */,
-				E162798D16DB5B2200F6D930 /* OnScreenBoundarySystem.cpp */,
-				E162798E16DB5B2200F6D930 /* OnScreenBoundarySystem.h */,
-				E162798F16DB5B2200F6D930 /* PhysicalComponent.cpp */,
-				E162799016DB5B2200F6D930 /* PhysicalComponent.h */,
-				E162799116DB5B2200F6D930 /* PhysicalSystem.cpp */,
-				E162799216DB5B2200F6D930 /* PhysicalSystem.h */,
-				E162799316DB5B2200F6D930 /* PlayerControllerSystem.cpp */,
-				E162799416DB5B2200F6D930 /* PlayerControllerSystem.h */,
-				E162799516DB5B2200F6D930 /* ReleaseShitComponent.h */,
-				E162799616DB5B2200F6D930 /* ReleaseShitSystem.cpp */,
-				E162799716DB5B2200F6D930 /* ReleaseShitSystem.h */,
-				E162799816DB5B2200F6D930 /* ScoreComponent.cpp */,
-				E162799916DB5B2200F6D930 /* ScoreComponent.h */,
-				E162799B16DB5B2200F6D930 /* SnakeFollowedComponent.cpp */,
-				E162799C16DB5B2200F6D930 /* SnakeFollowedComponent.h */,
-				E162799D16DB5B2200F6D930 /* VelocityComponent.cpp */,
-				E162799E16DB5B2200F6D930 /* VelocityComponent.h */,
 				E1D5EA3716DB4D6100DF170C /* AppDelegate.cpp */,
 				E1D5EA3816DB4D6100DF170C /* AppDelegate.h */,
 			);
@@ -2197,7 +2210,6 @@
 				E162793216DB5AE700F6D930 /* stone.png in Resources */,
 				E162793316DB5AE700F6D930 /* watermelon.png in Resources */,
 				E162793416DB5AE700F6D930 /* watermelonSlice.png in Resources */,
-				E162796316DB5B0B00F6D930 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2417,44 +2429,44 @@
 				E1D5EA1916DB4BA500DF170C /* AppController.mm in Sources */,
 				E1D5EA1C16DB4BA500DF170C /* RootViewController.mm in Sources */,
 				E1D5EA3B16DB4D6100DF170C /* AppDelegate.cpp in Sources */,
-				E162795916DB5B0B00F6D930 /* Component.cpp in Sources */,
-				E162795A16DB5B0B00F6D930 /* ComponentType.cpp in Sources */,
-				E162795B16DB5B0B00F6D930 /* ComponentTypeManager.cpp in Sources */,
-				E162795C16DB5B0B00F6D930 /* DelayedEntityProcessingSystem.cpp in Sources */,
-				E162795D16DB5B0B00F6D930 /* DelayedEntitySystem.cpp in Sources */,
-				E162795E16DB5B0B00F6D930 /* Entity.cpp in Sources */,
-				E162795F16DB5B0B00F6D930 /* EntityManager.cpp in Sources */,
-				E162796016DB5B0B00F6D930 /* EntityProcessingSystem.cpp in Sources */,
-				E162796116DB5B0B00F6D930 /* EntitySystem.cpp in Sources */,
-				E162796216DB5B0B00F6D930 /* GroupManager.cpp in Sources */,
-				E162796416DB5B0B00F6D930 /* SystemBitManager.cpp in Sources */,
-				E162796516DB5B0B00F6D930 /* SystemManager.cpp in Sources */,
-				E162796616DB5B0B00F6D930 /* TagManager.cpp in Sources */,
-				E162796716DB5B0B00F6D930 /* World.cpp in Sources */,
-				E162799F16DB5B2200F6D930 /* CollisionSystem.cpp in Sources */,
-				E16279A016DB5B2200F6D930 /* DamageComponent.cpp in Sources */,
 				E16279A116DB5B2200F6D930 /* Database.cpp in Sources */,
 				E16279A216DB5B2200F6D930 /* EndGameScene.cpp in Sources */,
 				E16279A316DB5B2200F6D930 /* EntityFactory.cpp in Sources */,
-				E16279A416DB5B2200F6D930 /* FinderFollowedComponent.cpp in Sources */,
 				E16279A516DB5B2200F6D930 /* GamePlayScene.cpp in Sources */,
-				E16279A616DB5B2200F6D930 /* GraphicComponent.cpp in Sources */,
-				E16279A716DB5B2200F6D930 /* HeathComponent.cpp in Sources */,
 				E16279A816DB5B2200F6D930 /* HighScoreLayer.cpp in Sources */,
 				E16279A916DB5B2200F6D930 /* HowToPlayScene.cpp in Sources */,
 				E16279AA16DB5B2200F6D930 /* InsideMenu.cpp in Sources */,
-				E16279AB16DB5B2200F6D930 /* LionFollowedComponent.cpp in Sources */,
-				E16279AC16DB5B2200F6D930 /* LionRoarSkillSystem.cpp in Sources */,
 				E16279AD16DB5B2200F6D930 /* MainMenuLayer.cpp in Sources */,
-				E16279AE16DB5B2200F6D930 /* MovementSystem.cpp in Sources */,
-				E16279AF16DB5B2200F6D930 /* OnScreenBoundarySystem.cpp in Sources */,
-				E16279B016DB5B2200F6D930 /* PhysicalComponent.cpp in Sources */,
-				E16279B116DB5B2200F6D930 /* PhysicalSystem.cpp in Sources */,
-				E16279B216DB5B2200F6D930 /* PlayerControllerSystem.cpp in Sources */,
-				E16279B316DB5B2200F6D930 /* ReleaseShitSystem.cpp in Sources */,
-				E16279B416DB5B2200F6D930 /* ScoreComponent.cpp in Sources */,
-				E16279B516DB5B2200F6D930 /* SnakeFollowedComponent.cpp in Sources */,
-				E16279B616DB5B2200F6D930 /* VelocityComponent.cpp in Sources */,
+				E12C902716DC88D00030A238 /* Component.cpp in Sources */,
+				E12C902816DC88D00030A238 /* ComponentType.cpp in Sources */,
+				E12C902916DC88D00030A238 /* ComponentTypeManager.cpp in Sources */,
+				E12C902A16DC88D00030A238 /* DelayedEntityProcessingSystem.cpp in Sources */,
+				E12C902B16DC88D00030A238 /* DelayedEntitySystem.cpp in Sources */,
+				E12C902C16DC88D00030A238 /* Entity.cpp in Sources */,
+				E12C902D16DC88D00030A238 /* EntityManager.cpp in Sources */,
+				E12C902E16DC88D00030A238 /* EntityProcessingSystem.cpp in Sources */,
+				E12C902F16DC88D00030A238 /* EntitySystem.cpp in Sources */,
+				E12C903016DC88D00030A238 /* GroupManager.cpp in Sources */,
+				E12C903116DC88D00030A238 /* SystemBitManager.cpp in Sources */,
+				E12C903216DC88D00030A238 /* SystemManager.cpp in Sources */,
+				E12C903316DC88D00030A238 /* TagManager.cpp in Sources */,
+				E12C903416DC88D00030A238 /* World.cpp in Sources */,
+				E12C904C16DC8A4E0030A238 /* DamageComponent.cpp in Sources */,
+				E12C904D16DC8A4E0030A238 /* FinderFollowedComponent.cpp in Sources */,
+				E12C904E16DC8A4E0030A238 /* GraphicComponent.cpp in Sources */,
+				E12C904F16DC8A4E0030A238 /* HeathComponent.cpp in Sources */,
+				E12C905016DC8A4E0030A238 /* LionFollowedComponent.cpp in Sources */,
+				E12C905116DC8A4E0030A238 /* PhysicalComponent.cpp in Sources */,
+				E12C905216DC8A4E0030A238 /* ScoreComponent.cpp in Sources */,
+				E12C905316DC8A4E0030A238 /* SnakeFollowedComponent.cpp in Sources */,
+				E12C905416DC8A4E0030A238 /* VelocityComponent.cpp in Sources */,
+				E12C906316DC8A6B0030A238 /* CollisionSystem.cpp in Sources */,
+				E12C906416DC8A6B0030A238 /* LionRoarSkillSystem.cpp in Sources */,
+				E12C906516DC8A6B0030A238 /* MovementSystem.cpp in Sources */,
+				E12C906616DC8A6B0030A238 /* OnScreenBoundarySystem.cpp in Sources */,
+				E12C906716DC8A6B0030A238 /* PhysicalSystem.cpp in Sources */,
+				E12C906816DC8A6B0030A238 /* PlayerControllerSystem.cpp in Sources */,
+				E12C906916DC8A6B0030A238 /* ReleaseShitSystem.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2522,6 +2534,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = NastyBirds/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				HEADER_SEARCH_PATHS = (
+					"\"$(PROJECT_NAME)/libs/cocos2dx/kazmath/include\"",
+					"\"$(PROJECT_NAME)/libs/cocos2dx\"",
+					"\"$(PROJECT_NAME)/libs/CocosDenshion/include\"",
+					"\"$(SDKROOT)/usr/include/libxml2\"",
+					../Classes,
+				);
 				INFOPLIST_FILE = NastyBirds/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = (
@@ -2542,6 +2561,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = NastyBirds/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				HEADER_SEARCH_PATHS = (
+					"\"$(PROJECT_NAME)/libs/cocos2dx/kazmath/include\"",
+					"\"$(PROJECT_NAME)/libs/cocos2dx\"",
+					"\"$(PROJECT_NAME)/libs/CocosDenshion/include\"",
+					"\"$(SDKROOT)/usr/include/libxml2\"",
+					../Classes,
+				);
 				INFOPLIST_FILE = NastyBirds/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = (

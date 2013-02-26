@@ -1,5 +1,6 @@
 #include "HowToPlayScene.h"
 #include "MainMenuLayer.h"
+
 CCScene* HowToPlayScene::scene()
 {
 	CCScene* scene = CCScene::create();

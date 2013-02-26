@@ -1,11 +1,15 @@
 #include "CollisionSystem.h"
-#include "ReleaseShitComponent.h"
-#include "HeathComponent.h"
-#include "DamageComponent.h"
-#include "ScoreComponent.h"
+
+#include "components/ReleaseShitComponent.h"
+#include "components/HeathComponent.h"
+#include "components/DamageComponent.h"
+#include "components/ScoreComponent.h"
+
 #include "artemis/World.h"
-#include "GamePlayScene.h"
 #include "artemis/Entity.h"
+
+#include "GamePlayScene.h"
+
 /**
  * System constructor define the list of components it interests in
  */

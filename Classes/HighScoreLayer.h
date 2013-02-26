@@ -1,8 +1,10 @@
 #pragma once
 #include "cocos2d.h"
 #include "Database.h"
+
 using namespace cocos2d;
 using namespace std;
+
 class HighScoreLayer: public CCLayerColor
 {
 public:

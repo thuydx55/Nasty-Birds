@@ -1,5 +1,6 @@
 #include "HighScoreLayer.h"
 #include "MainMenuLayer.h"
+
 CCScene* HighScoreLayer::scene()
 {
 	CCScene* scene = new CCScene();

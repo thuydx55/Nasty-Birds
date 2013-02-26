@@ -6,9 +6,11 @@
 #include "artemis/ComponentMapper.h"
 #include "artemis/Entity.h"
 #include "artemis/World.h"
+
 #include "Box2D/Box2D.h"
-#include "GraphicComponent.h"
-#include "PhysicalComponent.h"
+
+#include "components/GraphicComponent.h"
+#include "components/PhysicalComponent.h"
 
 //#define PTM_RATIO 32.0f
 

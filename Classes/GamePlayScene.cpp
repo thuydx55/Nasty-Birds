@@ -4,11 +4,11 @@
 
 #include "Constants.h"
 
-#include "OnScreenBoundaryComponent.h"
-#include "ReleaseShitComponent.h"
-#include "PhysicalComponent.h"
-#include "HeathComponent.h"
-#include "ScoreComponent.h"
+#include "components/OnScreenBoundaryComponent.h"
+#include "components/ReleaseShitComponent.h"
+#include "components/PhysicalComponent.h"
+#include "components/HeathComponent.h"
+#include "components/ScoreComponent.h"
 
 #include "GamePlayScene.h"
 #include "MainMenuLayer.h"
