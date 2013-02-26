@@ -1,35 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="source">
-      <UniqueIdentifier>{26acbd27-3dde-4a2e-abe5-86b37683ddc4}</UniqueIdentifier>
-      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
-    </Filter>
-    <Filter Include="include">
-      <UniqueIdentifier>{b3d701ad-43f4-4701-bd05-c19b55b4a17e}</UniqueIdentifier>
-      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
-    </Filter>
     <Filter Include="resource">
       <UniqueIdentifier>{b9fdc287-948e-4532-a572-e6ec9d0938be}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
     </Filter>
-    <Filter Include="source\artemis">
-      <UniqueIdentifier>{fcda517c-375d-43b4-bc22-789eca44cea8}</UniqueIdentifier>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{d4d586de-fcc0-47e1-9474-a08a06948d35}</UniqueIdentifier>
     </Filter>
-    <Filter Include="include\systems">
-      <UniqueIdentifier>{0ae7491b-a940-468e-b8a8-afe93416c288}</UniqueIdentifier>
+    <Filter Include="Classes\artemis">
+      <UniqueIdentifier>{e4cd9eaa-236c-487c-9e5c-a8abed60668d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="include\components">
-      <UniqueIdentifier>{ceef46aa-0c79-4068-ad69-441fa3b701ff}</UniqueIdentifier>
+    <Filter Include="Classes\systems">
+      <UniqueIdentifier>{011acfeb-1ceb-4230-9e39-002bc2645cd8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="source\components">
-      <UniqueIdentifier>{1efc1c98-85ad-4806-93ab-cafaa3f40794}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="source\systems">
-      <UniqueIdentifier>{ab9777c7-5db3-483e-b08c-f7bc0529f2de}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="include\artemis">
-      <UniqueIdentifier>{82bc6ffe-3cbc-4962-a036-5fea9bbe7662}</UniqueIdentifier>
+    <Filter Include="Classes\components">
+      <UniqueIdentifier>{3f7ed619-6ee6-417c-9569-f84555e86372}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -256,283 +242,277 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="resource.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\AppDelegate.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\artemis\EntityManager.h">
-      <Filter>include\artemis</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\artemis\EntityProcessingSystem.h">
-      <Filter>include\artemis</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\artemis\EntitySystem.h">
-      <Filter>include\artemis</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\artemis\GroupManager.h">
-      <Filter>include\artemis</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\artemis\ImmutableBag.h">
-      <Filter>include\artemis</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\artemis\SystemBitManager.h">
-      <Filter>include\artemis</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\artemis\SystemManager.h">
-      <Filter>include\artemis</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\artemis\TagManager.h">
-      <Filter>include\artemis</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\artemis\TypeInfoComparator.h">
-      <Filter>include\artemis</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\artemis\World.h">
-      <Filter>include\artemis</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\artemis\BitSize.h">
-      <Filter>include\artemis</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\artemis\Component.h">
-      <Filter>include\artemis</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\artemis\ComponentMapper.h">
-      <Filter>include\artemis</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\artemis\ComponentType.h">
-      <Filter>include\artemis</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\artemis\ComponentTypeManager.h">
-      <Filter>include\artemis</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\artemis\DelayedEntityProcessingSystem.h">
-      <Filter>include\artemis</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\artemis\DelayedEntitySystem.h">
-      <Filter>include\artemis</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\artemis\Entity.h">
-      <Filter>include\artemis</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\GraphicComponent.h">
-      <Filter>include\components</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\MovementSystem.h">
-      <Filter>include\systems</Filter>
-    </ClInclude>
-    <ClInclude Include="main.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\VelocityComponent.h">
-      <Filter>include\components</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\OnScreenBoundaryComponent.h">
-      <Filter>include\components</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\OnScreenBoundarySystem.h">
-      <Filter>include\systems</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\MainMenuLayer.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\HowToPlayScene.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\ReleaseShitSystem.h">
-      <Filter>include\systems</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\GamePlayScene.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\PhysicalComponent.h">
-      <Filter>include\components</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\PhysicalSystem.h">
-      <Filter>include\systems</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\ReleaseShitComponent.h">
-      <Filter>include\components</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\CollisionSystem.h">
-      <Filter>include\systems</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\EntityFactory.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Database.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\HighScoreLayer.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\DamageComponent.h">
-      <Filter>include\components</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\DefaultPositionComponent.h">
-      <Filter>include\components</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\HeathComponent.h">
-      <Filter>include\components</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\ScoreComponent.h">
-      <Filter>include\components</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Delegate.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Signal.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\EndGameScene.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\LionRoarSkillSystem.h">
-      <Filter>include\systems</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\LionRoarSkillComponent.h">
-      <Filter>include\components</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\InsideMenu.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\Constants.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\PlayerControllerSystem.h">
-      <Filter>include\systems</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\LionFollowedComponent.h">
-      <Filter>include\components</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\SnakeFollowedComponent.h">
-      <Filter>include\components</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\FinderFollowedComponent.h">
-      <Filter>include\components</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\AppDelegate.cpp">
-      <Filter>source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\artemis\Component.cpp">
-      <Filter>source\artemis</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\artemis\World.cpp">
-      <Filter>source\artemis</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\artemis\ComponentType.cpp">
-      <Filter>source\artemis</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\artemis\ComponentTypeManager.cpp">
-      <Filter>source\artemis</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\artemis\DelayedEntityProcessingSystem.cpp">
-      <Filter>source\artemis</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\artemis\DelayedEntitySystem.cpp">
-      <Filter>source\artemis</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\artemis\Entity.cpp">
-      <Filter>source\artemis</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\artemis\EntityManager.cpp">
-      <Filter>source\artemis</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\artemis\EntityProcessingSystem.cpp">
-      <Filter>source\artemis</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\artemis\EntitySystem.cpp">
-      <Filter>source\artemis</Filter>
-    </ClCompile>
     <ClCompile Include="..\Classes\artemis\GroupManager.cpp">
-      <Filter>source\artemis</Filter>
+      <Filter>Classes\artemis</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\artemis\SystemBitManager.cpp">
-      <Filter>source\artemis</Filter>
+      <Filter>Classes\artemis</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\artemis\SystemManager.cpp">
-      <Filter>source\artemis</Filter>
+      <Filter>Classes\artemis</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\artemis\TagManager.cpp">
-      <Filter>source\artemis</Filter>
+      <Filter>Classes\artemis</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\GraphicComponent.cpp">
-      <Filter>source\components</Filter>
+    <ClCompile Include="..\Classes\artemis\World.cpp">
+      <Filter>Classes\artemis</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\MovementSystem.cpp">
-      <Filter>source\systems</Filter>
+    <ClCompile Include="..\Classes\artemis\Component.cpp">
+      <Filter>Classes\artemis</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\VelocityComponent.cpp">
-      <Filter>source\components</Filter>
+    <ClCompile Include="..\Classes\artemis\ComponentType.cpp">
+      <Filter>Classes\artemis</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\OnScreenBoundarySystem.cpp">
-      <Filter>source\systems</Filter>
+    <ClCompile Include="..\Classes\artemis\ComponentTypeManager.cpp">
+      <Filter>Classes\artemis</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\MainMenuLayer.cpp">
-      <Filter>source</Filter>
+    <ClCompile Include="..\Classes\artemis\DelayedEntityProcessingSystem.cpp">
+      <Filter>Classes\artemis</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\HowToPlayScene.cpp">
-      <Filter>source</Filter>
+    <ClCompile Include="..\Classes\artemis\DelayedEntitySystem.cpp">
+      <Filter>Classes\artemis</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\ReleaseShitSystem.cpp">
-      <Filter>source\systems</Filter>
+    <ClCompile Include="..\Classes\artemis\Entity.cpp">
+      <Filter>Classes\artemis</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\GamePlayScene.cpp">
-      <Filter>source</Filter>
+    <ClCompile Include="..\Classes\artemis\EntityManager.cpp">
+      <Filter>Classes\artemis</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\PhysicalComponent.cpp">
-      <Filter>source\components</Filter>
+    <ClCompile Include="..\Classes\artemis\EntityProcessingSystem.cpp">
+      <Filter>Classes\artemis</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\PhysicalSystem.cpp">
-      <Filter>source\systems</Filter>
+    <ClCompile Include="..\Classes\artemis\EntitySystem.cpp">
+      <Filter>Classes\artemis</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\CollisionSystem.cpp">
-      <Filter>source\systems</Filter>
+    <ClCompile Include="..\Classes\systems\OnScreenBoundarySystem.cpp">
+      <Filter>Classes\systems</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\EntityFactory.cpp">
-      <Filter>source</Filter>
+    <ClCompile Include="..\Classes\systems\PhysicalSystem.cpp">
+      <Filter>Classes\systems</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\HighScoreLayer.cpp">
-      <Filter>source</Filter>
+    <ClCompile Include="..\Classes\systems\PlayerControllerSystem.cpp">
+      <Filter>Classes\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\systems\ReleaseShitSystem.cpp">
+      <Filter>Classes\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\systems\CollisionSystem.cpp">
+      <Filter>Classes\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\systems\LionRoarSkillSystem.cpp">
+      <Filter>Classes\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\systems\MovementSystem.cpp">
+      <Filter>Classes\systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\components\GraphicComponent.cpp">
+      <Filter>Classes\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\components\HeathComponent.cpp">
+      <Filter>Classes\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\components\LionFollowedComponent.cpp">
+      <Filter>Classes\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\components\PhysicalComponent.cpp">
+      <Filter>Classes\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\components\ScoreComponent.cpp">
+      <Filter>Classes\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\components\SnakeFollowedComponent.cpp">
+      <Filter>Classes\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\components\VelocityComponent.cpp">
+      <Filter>Classes\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\components\DamageComponent.cpp">
+      <Filter>Classes\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\components\FinderFollowedComponent.cpp">
+      <Filter>Classes\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\Database.cpp">
-      <Filter>source</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\DamageComponent.cpp">
-      <Filter>source\components</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\HeathComponent.cpp">
-      <Filter>source\components</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\ScoreComponent.cpp">
-      <Filter>source\components</Filter>
+      <Filter>Classes</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\EndGameScene.cpp">
-      <Filter>source</Filter>
+      <Filter>Classes</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\LionRoarSkillSystem.cpp">
-      <Filter>source\systems</Filter>
+    <ClCompile Include="..\Classes\EntityFactory.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GamePlayScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HighScoreLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HowToPlayScene.cpp">
+      <Filter>Classes</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\InsideMenu.cpp">
-      <Filter>source</Filter>
+      <Filter>Classes</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\PlayerControllerSystem.cpp">
-      <Filter>source\systems</Filter>
+    <ClCompile Include="..\Classes\MainMenuLayer.cpp">
+      <Filter>Classes</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\LionFollowedComponent.cpp">
-      <Filter>source\components</Filter>
+    <ClCompile Include="main.cpp">
+      <Filter>Classes</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\SnakeFollowedComponent.cpp">
-      <Filter>source\components</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\FinderFollowedComponent.cpp">
-      <Filter>source\components</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\artemis\GroupManager.h">
+      <Filter>Classes\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\ImmutableBag.h">
+      <Filter>Classes\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\SystemBitManager.h">
+      <Filter>Classes\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\SystemManager.h">
+      <Filter>Classes\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\TagManager.h">
+      <Filter>Classes\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\TypeInfoComparator.h">
+      <Filter>Classes\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\World.h">
+      <Filter>Classes\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\BitSize.h">
+      <Filter>Classes\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\Component.h">
+      <Filter>Classes\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\ComponentMapper.h">
+      <Filter>Classes\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\ComponentType.h">
+      <Filter>Classes\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\ComponentTypeManager.h">
+      <Filter>Classes\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\DelayedEntityProcessingSystem.h">
+      <Filter>Classes\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\DelayedEntitySystem.h">
+      <Filter>Classes\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\Entity.h">
+      <Filter>Classes\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\EntityManager.h">
+      <Filter>Classes\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\EntityProcessingSystem.h">
+      <Filter>Classes\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\artemis\EntitySystem.h">
+      <Filter>Classes\artemis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\systems\OnScreenBoundarySystem.h">
+      <Filter>Classes\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\systems\PhysicalSystem.h">
+      <Filter>Classes\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\systems\PlayerControllerSystem.h">
+      <Filter>Classes\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\systems\ReleaseShitSystem.h">
+      <Filter>Classes\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\systems\CollisionSystem.h">
+      <Filter>Classes\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\systems\LionRoarSkillSystem.h">
+      <Filter>Classes\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\systems\MovementSystem.h">
+      <Filter>Classes\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\components\GraphicComponent.h">
+      <Filter>Classes\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\components\HeathComponent.h">
+      <Filter>Classes\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\components\LionFollowedComponent.h">
+      <Filter>Classes\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\components\LionRoarSkillComponent.h">
+      <Filter>Classes\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\components\OnScreenBoundaryComponent.h">
+      <Filter>Classes\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\components\PhysicalComponent.h">
+      <Filter>Classes\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\components\ReleaseShitComponent.h">
+      <Filter>Classes\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\components\ScoreComponent.h">
+      <Filter>Classes\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\components\SnakeFollowedComponent.h">
+      <Filter>Classes\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\components\VelocityComponent.h">
+      <Filter>Classes\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\components\DamageComponent.h">
+      <Filter>Classes\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\components\DefaultPositionComponent.h">
+      <Filter>Classes\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\components\FinderFollowedComponent.h">
+      <Filter>Classes\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Constants.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Database.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EndGameScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EntityFactory.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GamePlayScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HighScoreLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HowToPlayScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\InsideMenu.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainMenuLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

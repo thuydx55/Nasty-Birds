@@ -18,11 +18,13 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -46,7 +48,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.;..\Classes;..\..\cocos2dx;..\..\cocos2dx\include;..\..\cocos2dx\kazmath\include;..\..\cocos2dx\platform\win32;..\..\cocos2dx\platform\third_party\win32;..\..\cocos2dx\platform\third_party\win32\OGLES;..\..\;..\..\CocosDenshion\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;..\Classes;..\..\cocos2dx;..\..\cocos2dx\include;..\..\cocos2dx\kazmath\include;..\..\cocos2dx\platform\win32;..\..\cocos2dx\platform\third_party\win32;..\..\cocos2dx\platform\third_party\win32\OGLES;..\..\;..\..\CocosDenshion\Include;..\..\external\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PrecompiledHeader>
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
@@ -199,6 +201,48 @@
     <ResourceCompile Include="fuckingbirds-revamp.rc" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\artemis\Component.cpp" />
+    <ClCompile Include="..\Classes\artemis\ComponentType.cpp" />
+    <ClCompile Include="..\Classes\artemis\ComponentTypeManager.cpp" />
+    <ClCompile Include="..\Classes\artemis\DelayedEntityProcessingSystem.cpp" />
+    <ClCompile Include="..\Classes\artemis\DelayedEntitySystem.cpp" />
+    <ClCompile Include="..\Classes\artemis\Entity.cpp" />
+    <ClCompile Include="..\Classes\artemis\EntityManager.cpp" />
+    <ClCompile Include="..\Classes\artemis\EntityProcessingSystem.cpp" />
+    <ClCompile Include="..\Classes\artemis\EntitySystem.cpp" />
+    <ClCompile Include="..\Classes\artemis\GroupManager.cpp" />
+    <ClCompile Include="..\Classes\artemis\SystemBitManager.cpp" />
+    <ClCompile Include="..\Classes\artemis\SystemManager.cpp" />
+    <ClCompile Include="..\Classes\artemis\TagManager.cpp" />
+    <ClCompile Include="..\Classes\artemis\World.cpp" />
+    <ClCompile Include="..\Classes\components\DamageComponent.cpp" />
+    <ClCompile Include="..\Classes\components\FinderFollowedComponent.cpp" />
+    <ClCompile Include="..\Classes\components\GraphicComponent.cpp" />
+    <ClCompile Include="..\Classes\components\HeathComponent.cpp" />
+    <ClCompile Include="..\Classes\components\LionFollowedComponent.cpp" />
+    <ClCompile Include="..\Classes\components\PhysicalComponent.cpp" />
+    <ClCompile Include="..\Classes\components\ScoreComponent.cpp" />
+    <ClCompile Include="..\Classes\components\SnakeFollowedComponent.cpp" />
+    <ClCompile Include="..\Classes\components\VelocityComponent.cpp" />
+    <ClCompile Include="..\Classes\Database.cpp" />
+    <ClCompile Include="..\Classes\EndGameScene.cpp" />
+    <ClCompile Include="..\Classes\EntityFactory.cpp" />
+    <ClCompile Include="..\Classes\GamePlayScene.cpp" />
+    <ClCompile Include="..\Classes\HighScoreLayer.cpp" />
+    <ClCompile Include="..\Classes\HowToPlayScene.cpp" />
+    <ClCompile Include="..\Classes\InsideMenu.cpp" />
+    <ClCompile Include="..\Classes\MainMenuLayer.cpp" />
+    <ClCompile Include="..\Classes\systems\CollisionSystem.cpp" />
+    <ClCompile Include="..\Classes\systems\LionRoarSkillSystem.cpp" />
+    <ClCompile Include="..\Classes\systems\MovementSystem.cpp" />
+    <ClCompile Include="..\Classes\systems\OnScreenBoundarySystem.cpp" />
+    <ClCompile Include="..\Classes\systems\PhysicalSystem.cpp" />
+    <ClCompile Include="..\Classes\systems\PlayerControllerSystem.cpp" />
+    <ClCompile Include="..\Classes\systems\ReleaseShitSystem.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
     <ClInclude Include="..\Classes\AppDelegate.h" />
     <ClInclude Include="..\Classes\artemis\BitSize.h" />
     <ClInclude Include="..\Classes\artemis\Component.h" />
@@ -218,81 +262,37 @@
     <ClInclude Include="..\Classes\artemis\TagManager.h" />
     <ClInclude Include="..\Classes\artemis\TypeInfoComparator.h" />
     <ClInclude Include="..\Classes\artemis\World.h" />
-    <ClInclude Include="..\Classes\CollisionSystem.h" />
+    <ClInclude Include="..\Classes\components\DamageComponent.h" />
+    <ClInclude Include="..\Classes\components\DefaultPositionComponent.h" />
+    <ClInclude Include="..\Classes\components\FinderFollowedComponent.h" />
+    <ClInclude Include="..\Classes\components\GraphicComponent.h" />
+    <ClInclude Include="..\Classes\components\HeathComponent.h" />
+    <ClInclude Include="..\Classes\components\LionFollowedComponent.h" />
+    <ClInclude Include="..\Classes\components\LionRoarSkillComponent.h" />
+    <ClInclude Include="..\Classes\components\OnScreenBoundaryComponent.h" />
+    <ClInclude Include="..\Classes\components\PhysicalComponent.h" />
+    <ClInclude Include="..\Classes\components\ReleaseShitComponent.h" />
+    <ClInclude Include="..\Classes\components\ScoreComponent.h" />
+    <ClInclude Include="..\Classes\components\SnakeFollowedComponent.h" />
+    <ClInclude Include="..\Classes\components\VelocityComponent.h" />
     <ClInclude Include="..\Classes\Constants.h" />
-    <ClInclude Include="..\Classes\DamageComponent.h" />
     <ClInclude Include="..\Classes\Database.h" />
-    <ClInclude Include="..\Classes\DefaultPositionComponent.h" />
-    <ClInclude Include="..\Classes\Delegate.h" />
     <ClInclude Include="..\Classes\EndGameScene.h" />
     <ClInclude Include="..\Classes\EntityFactory.h" />
-    <ClInclude Include="..\Classes\FinderFollowedComponent.h" />
     <ClInclude Include="..\Classes\GamePlayScene.h" />
-    <ClInclude Include="..\Classes\GraphicComponent.h" />
-    <ClInclude Include="..\Classes\HeathComponent.h" />
     <ClInclude Include="..\Classes\HighScoreLayer.h" />
     <ClInclude Include="..\Classes\HowToPlayScene.h" />
     <ClInclude Include="..\Classes\InsideMenu.h" />
-    <ClInclude Include="..\Classes\LionFollowedComponent.h" />
-    <ClInclude Include="..\Classes\LionRoarSkillComponent.h" />
-    <ClInclude Include="..\Classes\LionRoarSkillSystem.h" />
     <ClInclude Include="..\Classes\MainMenuLayer.h" />
-    <ClInclude Include="..\Classes\MovementSystem.h" />
-    <ClInclude Include="..\Classes\OnScreenBoundaryComponent.h" />
-    <ClInclude Include="..\Classes\OnScreenBoundarySystem.h" />
-    <ClInclude Include="..\Classes\PhysicalComponent.h" />
-    <ClInclude Include="..\Classes\PhysicalSystem.h" />
-    <ClInclude Include="..\Classes\ReleaseShitComponent.h" />
-    <ClInclude Include="..\Classes\ReleaseShitSystem.h" />
-    <ClInclude Include="..\Classes\ScoreComponent.h" />
-    <ClInclude Include="..\Classes\Signal.h" />
-    <ClInclude Include="..\Classes\PlayerControllerSystem.h" />
-    <ClInclude Include="..\Classes\SnakeFollowedComponent.h" />
-    <ClInclude Include="..\Classes\VelocityComponent.h" />
+    <ClInclude Include="..\Classes\systems\CollisionSystem.h" />
+    <ClInclude Include="..\Classes\systems\LionRoarSkillSystem.h" />
+    <ClInclude Include="..\Classes\systems\MovementSystem.h" />
+    <ClInclude Include="..\Classes\systems\OnScreenBoundarySystem.h" />
+    <ClInclude Include="..\Classes\systems\PhysicalSystem.h" />
+    <ClInclude Include="..\Classes\systems\PlayerControllerSystem.h" />
+    <ClInclude Include="..\Classes\systems\ReleaseShitSystem.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="resource.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\Classes\AppDelegate.cpp" />
-    <ClCompile Include="..\Classes\artemis\Component.cpp" />
-    <ClCompile Include="..\Classes\artemis\ComponentType.cpp" />
-    <ClCompile Include="..\Classes\artemis\ComponentTypeManager.cpp" />
-    <ClCompile Include="..\Classes\artemis\DelayedEntityProcessingSystem.cpp" />
-    <ClCompile Include="..\Classes\artemis\DelayedEntitySystem.cpp" />
-    <ClCompile Include="..\Classes\artemis\Entity.cpp" />
-    <ClCompile Include="..\Classes\artemis\EntityManager.cpp" />
-    <ClCompile Include="..\Classes\artemis\EntityProcessingSystem.cpp" />
-    <ClCompile Include="..\Classes\artemis\EntitySystem.cpp" />
-    <ClCompile Include="..\Classes\artemis\GroupManager.cpp" />
-    <ClCompile Include="..\Classes\artemis\SystemBitManager.cpp" />
-    <ClCompile Include="..\Classes\artemis\SystemManager.cpp" />
-    <ClCompile Include="..\Classes\artemis\TagManager.cpp" />
-    <ClCompile Include="..\Classes\artemis\World.cpp" />
-    <ClCompile Include="..\Classes\CollisionSystem.cpp" />
-    <ClCompile Include="..\Classes\DamageComponent.cpp" />
-    <ClCompile Include="..\Classes\Database.cpp" />
-    <ClCompile Include="..\Classes\EndGameScene.cpp" />
-    <ClCompile Include="..\Classes\EntityFactory.cpp" />
-    <ClCompile Include="..\Classes\FinderFollowedComponent.cpp" />
-    <ClCompile Include="..\Classes\GamePlayScene.cpp" />
-    <ClCompile Include="..\Classes\GraphicComponent.cpp" />
-    <ClCompile Include="..\Classes\HeathComponent.cpp" />
-    <ClCompile Include="..\Classes\HighScoreLayer.cpp" />
-    <ClCompile Include="..\Classes\HowToPlayScene.cpp" />
-    <ClCompile Include="..\Classes\InsideMenu.cpp" />
-    <ClCompile Include="..\Classes\LionFollowedComponent.cpp" />
-    <ClCompile Include="..\Classes\LionRoarSkillSystem.cpp" />
-    <ClCompile Include="..\Classes\MainMenuLayer.cpp" />
-    <ClCompile Include="..\Classes\MovementSystem.cpp" />
-    <ClCompile Include="..\Classes\OnScreenBoundarySystem.cpp" />
-    <ClCompile Include="..\Classes\PhysicalComponent.cpp" />
-    <ClCompile Include="..\Classes\PhysicalSystem.cpp" />
-    <ClCompile Include="..\Classes\ReleaseShitSystem.cpp" />
-    <ClCompile Include="..\Classes\ScoreComponent.cpp" />
-    <ClCompile Include="..\Classes\PlayerControllerSystem.cpp" />
-    <ClCompile Include="..\Classes\SnakeFollowedComponent.cpp" />
-    <ClCompile Include="..\Classes\VelocityComponent.cpp" />
-    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

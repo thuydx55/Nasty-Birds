@@ -63,26 +63,26 @@ bool MainMenuLayer::init()
 void MainMenuLayer::ccTouchesBegan(CCSet *pTouches, CCEvent *pEvent)
 {
 	CCTouch *touch = (CCTouch*)(pTouches->anyObject());
-	CCPoint pointTouched = touch->locationInView();
+	CCPoint pointTouched = touch->getLocationInView();
 	pointTouched = CCDirector::sharedDirector()->convertToGL(pointTouched);
 
 	CCSprite* newgameTemp = (CCSprite*)this->getChildByTag(1);
 	CCRect newgameRect = newgameTemp->boundingBox();
-	if (CCRect::CCRectContainsPoint(newgameRect,pointTouched))
+	if (newgameRect.containsPoint(pointTouched))
 	{
 		actionInvertForNewGame();
 	}
 
 	CCSprite* highscoreTemp = (CCSprite*)this->getChildByTag(2);
 	CCRect highscoreRect = highscoreTemp->boundingBox();
-	if (CCRect::CCRectContainsPoint(highscoreRect,pointTouched))
+	if (highscoreRect.containsPoint(pointTouched))
 	{
 		actionInvertForHighScore();
 	}
 
 	CCSprite* howtoplayTemp = (CCSprite*)this->getChildByTag(3);
 	CCRect howtoPlayRect = howtoplayTemp->boundingBox();
-	if (CCRect::CCRectContainsPoint(howtoPlayRect,pointTouched))
+	if (howtoPlayRect.containsPoint(pointTouched))
 	{
 		actionInvertForHowtoPlay();
 	}

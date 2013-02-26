@@ -130,8 +130,7 @@ bool CollisionSystem::CollisionGroup::isCollided(Entity* pE1, Entity* pE2) {
   GraphicComponent* graphic1 = mParent->mGraphicMapper.get(*pE1);
   GraphicComponent* graphic2 = mParent->mGraphicMapper.get(*pE2);
   
-  return CCRect::CCRectIntersectsRect(graphic1->getBoundingBox(),
-                                      graphic2->getBoundingBox());
+  return graphic1->getBoundingBox().intersectsRect(graphic2->getBoundingBox());
 }
 
 /**

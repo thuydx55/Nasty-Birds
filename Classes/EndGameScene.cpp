@@ -27,18 +27,18 @@ void EndGameScene::setScore(int pValue)
 void EndGameScene::ccTouchesBegan(CCSet *pTouches, CCEvent *pEvent)
 {
   CCTouch *touch = (CCTouch*)(pTouches->anyObject());
-  CCPoint pointTouched = touch->locationInView();
+  CCPoint pointTouched = touch->getLocationInView();
   pointTouched = CCDirector::sharedDirector()->convertToGL(pointTouched);
 
   //handle reset button
-  if(CCRect::CCRectContainsPoint(resetGame->boundingBox(),pointTouched)){
+  if(resetGame->boundingBox().containsPoint(pointTouched)){
     SaveGame();
     CCScene* reset = GamePlayLayer::scene();
     CCDirector::sharedDirector()->replaceScene(reset);
   }
   
   //handle quit button
-  if (CCRect::CCRectContainsPoint(quitGame->boundingBox(),pointTouched))
+  if (quitGame->boundingBox().containsPoint(pointTouched))
   {
     SaveGame();
     CCScene* main_menu = MainMenuLayer::scene();
@@ -46,7 +46,7 @@ void EndGameScene::ccTouchesBegan(CCSet *pTouches, CCEvent *pEvent)
   }
 
   //handle when user touch at nameField
-  if (CCRect::CCRectContainsPoint(nameField->boundingBox(),pointTouched))
+  if (nameField->boundingBox().containsPoint(pointTouched))
   {
     nameField->attachWithIME();
   }else{

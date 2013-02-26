@@ -28,10 +28,10 @@ void PlayerControllerSystem::processEntity( Entity &pE ) {}
 
 void PlayerControllerSystem::ccTouchesBegan(CCSet *pTouches, CCEvent *pEvent) {
   CCTouch *touch = (CCTouch*)(pTouches->anyObject());
-  CCPoint pointTouched = touch->locationInView();
+  CCPoint pointTouched = touch->getLocationInView();
   pointTouched = CCDirector::sharedDirector()->convertToGL(pointTouched);
-
-  if (CCRect::CCRectContainsPoint(mGrapC->getBoundingBox(), pointTouched))
+  
+  if (mGrapC->getBoundingBox().containsPoint(pointTouched))
   {
     mStoneIsTouched = true;
     //mGrapC->getGraphicNode()->setPosition(pointTouched);
@@ -43,7 +43,7 @@ void PlayerControllerSystem::ccTouchesBegan(CCSet *pTouches, CCEvent *pEvent) {
 void PlayerControllerSystem::ccTouchesMoved(CCSet *pTouches, CCEvent *pEvent )
 {
   CCTouch *touch = (CCTouch*)(pTouches->anyObject());
-  CCPoint pointTouched = touch->locationInView();
+  CCPoint pointTouched = touch->getLocationInView();
   pointTouched = CCDirector::sharedDirector()->convertToGL(pointTouched);
 
   if (mStoneIsTouched && pointTouched.y < mDefaultPosC->getDefaultPosition().y)
@@ -58,7 +58,7 @@ void PlayerControllerSystem::ccTouchesMoved(CCSet *pTouches, CCEvent *pEvent )
 
 void PlayerControllerSystem::ccTouchesEnded(CCSet *pTouches, CCEvent *pEvent) {
   CCTouch *touch = (CCTouch*)(pTouches->anyObject());
-  CCPoint pointTouched = touch->locationInView();
+  CCPoint pointTouched = touch->getLocationInView();
   pointTouched = CCDirector::sharedDirector()->convertToGL(pointTouched);
 
   CCPoint defaultPos = mDefaultPosC->getDefaultPosition();

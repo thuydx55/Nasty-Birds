@@ -219,10 +219,10 @@ void GamePlayLayer::gamOver()
 void GamePlayLayer::ccTouchesBegan( CCSet *pTouches, CCEvent *pEvent )
 {
   CCTouch *touch = (CCTouch *)pTouches->anyObject();
-  CCPoint pointTouched = touch->locationInView();
+  CCPoint pointTouched = touch->getLocationInView();
   pointTouched = CCDirector::sharedDirector()->convertToGL(pointTouched);
 
-  if (CCRect::CCRectContainsPoint(mSkillButton->boundingBox(),pointTouched) && useSkill && turnOn && !lose)
+  if (mSkillButton->boundingBox().containsPoint(pointTouched) && useSkill && turnOn && !lose)
   {
     useSkill = false;
     turnOn  = false;
@@ -240,7 +240,7 @@ void GamePlayLayer::ccTouchesEnded( CCSet *pTouches, CCEvent *pEvent )
 
 	CCRect menuRect = mMenuLabel->boundingBox();
 
-	if (CCRect::CCRectContainsPoint(menuRect, location))
+	if (menuRect.containsPoint(location))
 	{
 		mMenu->actionForMenu();
     pauseBird();
@@ -248,7 +248,7 @@ void GamePlayLayer::ccTouchesEnded( CCSet *pTouches, CCEvent *pEvent )
     mPlayerControllerSystem->setTouchEnabled(false);
 	}
 
-	if (CCRect::CCRectContainsPoint(mMenu->getResume()->boundingBox(), location))
+	if (mMenu->getResume()->boundingBox().containsPoint(location))
 	{
 		mMenu->actionInvertToResume();
     resumeBird();
@@ -256,14 +256,14 @@ void GamePlayLayer::ccTouchesEnded( CCSet *pTouches, CCEvent *pEvent )
     mPlayerControllerSystem->setTouchEnabled(true);
 	}
 
-	if (CCRect::CCRectContainsPoint(mMenu->getReset()->boundingBox(), location))
+	if (mMenu->getReset()->boundingBox().containsPoint(location))
 	{
 		CocosDenshion::SimpleAudioEngine::sharedEngine()->stopAllEffects();
 		CCScene* newScene = GamePlayLayer::scene();
 		CCDirector::sharedDirector()->replaceScene(newScene);
 	}
 
-	if (CCRect::CCRectContainsPoint(mMenu->getQuit()->boundingBox(), location))
+	if (mMenu->getQuit()->boundingBox().containsPoint(location))
 	{
 		CocosDenshion::SimpleAudioEngine::sharedEngine()->stopAllEffects();
 		CCScene* menuScene = MainMenuLayer::scene();

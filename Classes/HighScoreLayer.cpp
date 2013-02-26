@@ -68,7 +68,7 @@ void HighScoreLayer::showTopScore()
 void HighScoreLayer::ccTouchesBegan( CCSet *pTouches, CCEvent *pEvent )
 {
   CCTouch *touch = (CCTouch *)pTouches->anyObject();
-  CCPoint pointTouched = touch->locationInView();
+  CCPoint pointTouched = touch->getLocationInView();
   pointTouched = CCDirector::sharedDirector()->convertToGL(pointTouched);
 
   CCScene* scene = MainMenuLayer::scene();
