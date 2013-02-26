@@ -19,7 +19,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\fuckingbirds-revamp.ico">
+    <None Include="res\NastyBirds.ico">
       <Filter>resource</Filter>
     </None>
     <None Include="..\Resources\CloseSelected.png">
@@ -237,7 +237,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="fuckingbirds-revamp.rc">
+    <ResourceCompile Include="NastyBirds.rc">
       <Filter>resource</Filter>
     </ResourceCompile>
   </ItemGroup>

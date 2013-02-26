@@ -76,11 +76,11 @@
       <MkTypLibCompatible>false</MkTypLibCompatible>
       <TargetEnvironment>Win32</TargetEnvironment>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <HeaderFileName>fuckingbirds-revamp.h</HeaderFileName>
-      <InterfaceIdentifierFileName>fuckingbirds-revamp_i.c</InterfaceIdentifierFileName>
-      <ProxyFileName>fuckingbirds-revamp_p.c</ProxyFileName>
+      <HeaderFileName>NastyBirds.h</HeaderFileName>
+      <InterfaceIdentifierFileName>NastyBirds_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>NastyBirds_p.c</ProxyFileName>
       <GenerateStublessProxies>true</GenerateStublessProxies>
-      <TypeLibraryName>$(IntDir)/fuckingbirds-revamp.tlb</TypeLibraryName>
+      <TypeLibraryName>$(IntDir)/NastyBirds.tlb</TypeLibraryName>
       <DllDataFileName>
       </DllDataFileName>
     </Midl>
@@ -114,11 +114,11 @@
       <MkTypLibCompatible>false</MkTypLibCompatible>
       <TargetEnvironment>Win32</TargetEnvironment>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <HeaderFileName>fuckingbirds-revamp.h</HeaderFileName>
-      <InterfaceIdentifierFileName>fuckingbirds-revamp_i.c</InterfaceIdentifierFileName>
-      <ProxyFileName>fuckingbirds-revamp_p.c</ProxyFileName>
+      <HeaderFileName>NastyBirds.h</HeaderFileName>
+      <InterfaceIdentifierFileName>NastyBirds_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>NastyBirds_p.c</ProxyFileName>
       <GenerateStublessProxies>true</GenerateStublessProxies>
-      <TypeLibraryName>$(IntDir)/fuckingbirds-revamp.tlb</TypeLibraryName>
+      <TypeLibraryName>$(IntDir)/NastyBirds.tlb</TypeLibraryName>
       <DllDataFileName>
       </DllDataFileName>
     </Midl>
@@ -195,10 +195,10 @@
     <None Include="..\Resources\stone.png" />
     <None Include="..\Resources\watermelon.png" />
     <None Include="..\Resources\watermelonSlice.png" />
-    <None Include="res\fuckingbirds-revamp.ico" />
+    <None Include="res\NastyBirds.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="fuckingbirds-revamp.rc" />
+    <ResourceCompile Include="NastyBirds.rc" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
