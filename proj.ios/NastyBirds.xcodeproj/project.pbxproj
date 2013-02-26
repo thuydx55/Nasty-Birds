@@ -37,6 +37,8 @@
 		E12C906716DC8A6B0030A238 /* PhysicalSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C905D16DC8A6B0030A238 /* PhysicalSystem.cpp */; };
 		E12C906816DC8A6B0030A238 /* PlayerControllerSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C905F16DC8A6B0030A238 /* PlayerControllerSystem.cpp */; };
 		E12C906916DC8A6B0030A238 /* ReleaseShitSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E12C906116DC8A6B0030A238 /* ReleaseShitSystem.cpp */; };
+		E12C906B16DC9E620030A238 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E12C906A16DC9E610030A238 /* Icon.png */; };
+		E12C906D16DC9E670030A238 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E12C906C16DC9E660030A238 /* Icon@2x.png */; };
 		E16278F216DB5AE700F6D930 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = E16278AF16DB5AE700F6D930 /* background.png */; };
 		E16278F316DB5AE700F6D930 /* backgroundGameScene.png in Resources */ = {isa = PBXBuildFile; fileRef = E16278B016DB5AE700F6D930 /* backgroundGameScene.png */; };
 		E16278F416DB5AE700F6D930 /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E16278B116DB5AE700F6D930 /* backgroundMusic.mp3 */; };
@@ -401,6 +403,8 @@
 		E12C906016DC8A6B0030A238 /* PlayerControllerSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerControllerSystem.h; path = ../../Classes/systems/PlayerControllerSystem.h; sourceTree = "<group>"; };
 		E12C906116DC8A6B0030A238 /* ReleaseShitSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ReleaseShitSystem.cpp; path = ../../Classes/systems/ReleaseShitSystem.cpp; sourceTree = "<group>"; };
 		E12C906216DC8A6B0030A238 /* ReleaseShitSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReleaseShitSystem.h; path = ../../Classes/systems/ReleaseShitSystem.h; sourceTree = "<group>"; };
+		E12C906A16DC9E610030A238 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		E12C906C16DC9E660030A238 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		E16278AF16DB5AE700F6D930 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../Resources/background.png; sourceTree = "<group>"; };
 		E16278B016DB5AE700F6D930 /* backgroundGameScene.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backgroundGameScene.png; path = ../../Resources/backgroundGameScene.png; sourceTree = "<group>"; };
 		E16278B116DB5AE700F6D930 /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = backgroundMusic.mp3; path = ../../Resources/backgroundMusic.mp3; sourceTree = "<group>"; };
@@ -1146,6 +1150,8 @@
 		E1D5E71416DB4B9E00DF170C = {
 			isa = PBXGroup;
 			children = (
+				E12C906C16DC9E660030A238 /* Icon@2x.png */,
+				E12C906A16DC9E610030A238 /* Icon.png */,
 				E1D5E73016DB4B9E00DF170C /* NastyBirds */,
 				E1D5E71F16DB4B9E00DF170C /* Frameworks */,
 				E1D5E71E16DB4B9E00DF170C /* Products */,
@@ -2210,6 +2216,8 @@
 				E162793216DB5AE700F6D930 /* stone.png in Resources */,
 				E162793316DB5AE700F6D930 /* watermelon.png in Resources */,
 				E162793416DB5AE700F6D930 /* watermelonSlice.png in Resources */,
+				E12C906B16DC9E620030A238 /* Icon.png in Resources */,
+				E12C906D16DC9E670030A238 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2542,7 +2550,7 @@
 					../Classes,
 				);
 				INFOPLIST_FILE = NastyBirds/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = (
 					"-lxml2",
 					"-lz",
@@ -2569,7 +2577,7 @@
 					../Classes,
 				);
 				INFOPLIST_FILE = NastyBirds/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = (
 					"-lxml2",
 					"-lz",
